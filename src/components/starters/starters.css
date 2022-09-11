@@ -1,0 +1,15 @@
+.menu-item {
+    display: flex;
+}
+
+.count-and-add {
+    margin-left: 200px;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.starter-items{
+    
+    max-width: 500px;
+    margin-left: 50px;
+}

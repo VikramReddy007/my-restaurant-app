@@ -18,7 +18,7 @@
     align-items: center;
     border-radius: 8px;
     background-color: var(--primary-bg);
-    width: 600px;
+    width: 310px;
     border: 1px solid var(--border-white);
     justify-content: space-between;
 }
