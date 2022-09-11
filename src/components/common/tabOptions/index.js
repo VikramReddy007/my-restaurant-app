@@ -15,7 +15,7 @@ const tabs = [
 
   {
     id: 2, 
-    name: "MainCourse",
+    name: "Main\nCourse",
     active_img: MainCourseImage,
     backdrop: "#FCEEC0",
     inactive_img: "./images/MainCourse.png",

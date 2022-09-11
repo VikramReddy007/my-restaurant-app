@@ -1,3 +1,8 @@
+@font-face {
+    font-family: SerifaBT;
+    src: url('Prompt-Medium.ttf');
+}
+
 .tab-options{
     box-shadow: var(--border-white) 0px -0.5px 0px;
 }
@@ -5,16 +10,17 @@
 .options-wrapper{
     display: flex;
     height: 75px;
-    padding-top: 10px;
 }
 
 .tab-item{
-    margin-right: 24px;
-    padding: 12px 12px 20px 12px;
+    margin-right: 5px;
+    /* padding: 12px 12px 20px 12px; */
+    padding-right: 10px;
+    width: 33.3%;
 }
 
-img{
-    max-width: 60px;
+.tab-options img{
+    max-width: 40px;
     border-radius: 50%;
 }
 
@@ -31,14 +37,18 @@ img{
 } */
 
 .tab-image{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
 
 .active-tab{
-    border: 1px solid var(--zomato-gray);
+    /* border: 1px solid var(--zomato-gray); */
     border-bottom: 5px solid var(--zomato-red);
     border-radius: 5%;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 22px;
+    /* font-weight: bold; */
+}
+
+.tab-name{
+    font-family: SerifaBT;
 }
