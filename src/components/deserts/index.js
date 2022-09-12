@@ -2,7 +2,7 @@ import React from 'react'
 
 const Deserts = () => {
   return (
-    <div>Deserts</div>
+    <div className="max-width menu-item">Deserts</div>
   )
 }
 

@@ -1,8 +1,9 @@
 import React from 'react'
+import '../../styles/commonClasses.css'
 
 const MainCourse = () => {
   return (
-    <div>MainCourse!</div>
+    <div className="max-width menu-item">This is MainCourse!</div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Created by Mokalla's!</div>
+    <div className='max-width'>Created by Mokalla's!</div>
   )
 }
 

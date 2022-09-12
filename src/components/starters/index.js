@@ -27,7 +27,7 @@ const VegMenu = [
 
 const Starters = () => {
   return (
-    <div className="">
+    <div className="menu-items">
       <h3 className="section-heading max-width">VEG</h3>
       <div>
         <div className ="starter-items">
