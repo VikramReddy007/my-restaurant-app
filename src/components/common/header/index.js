@@ -10,7 +10,7 @@ const Header = () => {
       <div className='max-width header'>
           <img src={mainLogo} alt='My Restaurant' className='header-logo' />
       </div>
-      <img src={titleLogo} alt='Mana Chutneys' className='title-logo max-width' />
+      <img src={titleLogo} alt='Mana Chutneys' className='title-logo max-width absolute-center' />
     </>
   )
 }

@@ -44,11 +44,6 @@ const TabOptions = ({ activeTab, setActiveTab }) => {
           >
             <div
               className="tab-image-container absolute-center"
-              style={{
-                backgroundColor: `${
-                  activeTab === tab.name ? tab.backdrop : ""
-                }`,
-              }}
             >
               <img
                 src={tab.active_img}

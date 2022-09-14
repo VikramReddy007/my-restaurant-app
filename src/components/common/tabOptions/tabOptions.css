@@ -1,12 +1,3 @@
-@font-face {
-    font-family: SerifaBT;
-    src: url('Prompt-Medium.ttf');
-}
-
-.tab-options{
-    box-shadow: var(--border-white) 0px -0.5px 0px;
-}
-
 .options-wrapper{
     display: flex;
     height: 75px;
@@ -16,39 +7,52 @@
     margin-right: 5px;
     /* padding: 12px 12px 20px 12px; */
     padding-right: 10px;
-    width: 33.3%;
-}
-
-.tab-options img{
-    max-width: 40px;
-    border-radius: 50%;
+    width: calc(33.3%);
 }
 
 .tab-image-container{
     height: 20px;
     width: 100%;
-    border-radius: 50%;
-    background-color: var(--inactive-color);
-    font-size: 15px;
+    padding-right: 5px;
 }
-
-/* .tab-name{
-    font-size: 20px;
-} */
 
 .tab-image{
     height: 30px;
     width: 30px;
+    max-width: 40px;
+    border-radius: 50%;
 }
 
 .active-tab{
-    /* border: 1px solid var(--zomato-gray); */
     border-bottom: 5px solid var(--zomato-red);
     border-radius: 5%;
     font-size: 22px;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 
 .tab-name{
-    font-family: SerifaBT;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr{
+    width: 33%;
+    border: 3px solid var(--zomato-red);
+    border-radius: 10px;
+}
+
+.tab-option-bar{
+    display: flex;
+    /* height: 10px; */
+    width: calc(33%);
+}
+
+hr.Starters{ 
+    margin-left: 0;  
+}
+hr.MainCourse{ 
+    margin-left: calc(33%); 
+}
+hr.Deserts{ 
+    margin-left: calc(66%);
 }
