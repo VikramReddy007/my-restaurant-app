@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./starters.css"
 import '../../styles/commonClasses.css'
-import Switch from 'react-switch'
+import ReactSwitch from 'react-switch'
 
 const VegMenu = [
   {
@@ -51,27 +51,18 @@ const NonVegMenu = [
 
 const Starters = () => {
 
-  // const [checked, setChecked] = useState(false);
-  // const handleChange = nextChecked => {
-  //   setChecked(nextChecked);
-  // };
+  const [checked, setChecked] = useState(null);
+  const handleChange = () => {
+    setChecked(nextChecked);
+  };
 
   return (
     <div className="menu-items max-width">
       <label className="switch-dish-type">
         <p>Veg</p>
-        <Switch
-          // checked={this.state.checked}
-          // onChange={this.handleChange}
-          onColor="#86d3ff"
-          onHandleColor="#2693e6"
-          handleDiameter={30}
-          uncheckedIcon={false}
-          checkedIcon={false}
-          boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
-          activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
-          height={20}
-          width={48}
+        <ReactSwitch
+          checked={this.state.checked}
+          onChange={handleChange}
           className="react-switch"
           id="material-switch"
         />
@@ -81,6 +72,27 @@ const Starters = () => {
       </label>
     </div>
   )
+}
+
+getDishes = (type) => {
+  switch(type){
+    case "V":
+      return (
+        <div className="dishes">
+          {VegMenu.map((menuItem) => (
+              <div className="tab-name">{menuItem.name}</div>
+          ))}
+        </div>
+      )
+    case "NV":
+      return (
+        <div className="dishes">
+          {NonVegMenu.map((menuItem) => (
+              <div className="tab-name">{menuItem.name}</div>
+          ))}
+        </div>
+      )
+  }
 }
 
 export default Starters;
