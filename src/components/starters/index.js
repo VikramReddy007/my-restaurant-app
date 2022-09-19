@@ -89,7 +89,7 @@ const Starters = () => {
 
 const getDishes = (type) => {
   switch (type) {
-    case "V":
+    case "V": default:
       return (
         <div className="dishes">
           {VegMenu.map((menuItem) => (
