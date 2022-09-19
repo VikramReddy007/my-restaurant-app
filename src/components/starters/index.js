@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./starters.css"
 import '../../styles/commonClasses.css'
-import {RadioGroup, FormControlLabel, Radio } from '@mui/material';
-
+import Switch from 'react-switch'
 
 const VegMenu = [
   {
@@ -27,28 +26,60 @@ const VegMenu = [
 
 ];
 
+const NonVegMenu = [
+  {
+    id: 5,
+    name: "Chicken Corn Soup",
+  },
+
+  {
+    id: 6,
+    name: "Chicken Bath",
+  },
+
+  {
+    id: 7,
+    name: "Chicken Manchow Soup",
+  },
+
+  {
+    id: 8,
+    name: "Chicken Hot and Sour Soup",
+  }
+
+];
+
 const Starters = () => {
+
+  // const [checked, setChecked] = useState(false);
+  // const handleChange = nextChecked => {
+  //   setChecked(nextChecked);
+  // };
+
   return (
     <div className="menu-items max-width">
-        <input type="radio" id="Veg" name="age" value="V" />
-        <label for="age1">VEG</label><br/>
-        <input type="radio" id="NonVeg" name="age" value="NV" />
-        <label for="age2">NON-VEG</label><br/>  
-        <input type="radio" id="Both" name="age" value="B" />
-        <label for="age3">BOTH</label><br/><br/>
-        {/* <input type="submit" value="Submit" /> */}
-
-      <RadioGroup name="use-radio-group" defaultValue="first">
-        <FormControlLabel value="first" label="First" control={<Radio />} />
-        <FormControlLabel value="second" label="Second" control={<Radio />} />
-      </RadioGroup>
-
+      <label className="switch-dish-type">
+        <p>Veg</p>
+        <Switch
+          // checked={this.state.checked}
+          // onChange={this.handleChange}
+          onColor="#86d3ff"
+          onHandleColor="#2693e6"
+          handleDiameter={30}
+          uncheckedIcon={false}
+          checkedIcon={false}
+          boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
+          activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
+          height={20}
+          width={48}
+          className="react-switch"
+          id="material-switch"
+        />
+        <p>Non-Veg</p>
         <div className="starter-items">
-          {VegMenu.map((menu) =>
-            <div className="menu-item">{menu.name}</div>
-          )}
         </div>
-      </div>
+      </label>
+    </div>
   )
 }
 
