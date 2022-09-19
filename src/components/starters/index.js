@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./starters.css"
 import '../../styles/commonClasses.css'
-import ReactSwitch from 'react-switch'
+import Switch from 'react-switch'
 
 const VegMenu = [
   {
@@ -51,36 +51,49 @@ const NonVegMenu = [
 
 const Starters = () => {
 
-  const [checked, setChecked] = useState(null);
+  const [checked, setChecked] = useState("V");
   const handleChange = () => {
-    setChecked(nextChecked);
+    setChecked((menu) => menu === "V" ? "NV" : "V");
   };
 
   return (
     <div className="menu-items max-width">
       <label className="switch-dish-type">
-        <p>Veg</p>
-        <ReactSwitch
-          checked={this.state.checked}
+        <p>VEG</p>
+        <Switch
+          offColor='#00cc44'
+          onColor="#ff0000"
+          onHandleColor="#ffffff"
+          handleDiameter={30}
+          uncheckedIcon={false}
+          checkedIcon={false}
+          boxShadow="0px 1px 5px rgba(0, 0, 0, 1.8)"
+          activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
+          height={20}
+          width={48}
+          checked={checked === "NV"}
           onChange={handleChange}
           className="react-switch"
           id="material-switch"
         />
-        <p>Non-Veg</p>
+        <p>NON-VEG</p>
         <div className="starter-items">
         </div>
       </label>
+      <div className="dish-menu">
+        {getDishes(checked)}
+      </div>
     </div>
   )
 }
 
-getDishes = (type) => {
-  switch(type){
+const getDishes = (type) => {
+  switch (type) {
     case "V":
       return (
         <div className="dishes">
           {VegMenu.map((menuItem) => (
-              <div className="tab-name">{menuItem.name}</div>
+            <div className="tab-name">{menuItem.name}</div>
           ))}
         </div>
       )
@@ -88,7 +101,7 @@ getDishes = (type) => {
       return (
         <div className="dishes">
           {NonVegMenu.map((menuItem) => (
-              <div className="tab-name">{menuItem.name}</div>
+            <div className="tab-name">{menuItem.name}</div>
           ))}
         </div>
       )
