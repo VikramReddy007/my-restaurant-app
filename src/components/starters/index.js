@@ -7,21 +7,25 @@ const VegMenu = [
   {
     id: 1,
     name: "Sweet Corn Soup",
+    price: 100
   },
 
   {
     id: 2,
     name: "Tomato Bath",
+    price: 90
   },
 
   {
     id: 3,
     name: "Veg Manchow Soup",
+    price: 110
   },
 
   {
     id: 4,
     name: "Veg Hot and Sour Soup",
+    price: 100
   }
 
 ];
@@ -30,21 +34,25 @@ const NonVegMenu = [
   {
     id: 5,
     name: "Chicken Corn Soup",
+    price: 120,
   },
 
   {
     id: 6,
     name: "Chicken Bath",
+    price: 110,
   },
 
   {
     id: 7,
     name: "Chicken Manchow Soup",
+    price: 130,
   },
 
   {
     id: 8,
     name: "Chicken Hot and Sour Soup",
+    price: 120,
   }
 
 ];
@@ -91,17 +99,23 @@ const getDishes = (type) => {
   switch (type) {
     case "V": default:
       return (
-        <div className="dishes">
+        <div>
           {VegMenu.map((menuItem) => (
-            <div className="tab-name">{menuItem.name}</div>
+            <div className="dishes">
+              <div className="dish-item item-name">{menuItem.name}</div>
+              <div className="dish-item item-price">Rs. {menuItem.price}/-</div>
+            </div>
           ))}
         </div>
       )
     case "NV":
       return (
-        <div className="dishes">
+        <div>
           {NonVegMenu.map((menuItem) => (
-            <div className="tab-name">{menuItem.name}</div>
+            <div className="dishes">
+              <div className="dish-item item-name">{menuItem.name}</div>
+              <div className="dish-item item-price">Rs. {menuItem.price}/-</div>
+            </div>
           ))}
         </div>
       )

@@ -10,7 +10,16 @@
 
 .switch-dish-type{
     display: flex;
+    align-items: center;
+}
+
+.dishes{
+    display: flex;
     font-size: large;
     font-weight: bold;
-    align-items: center;
+}
+
+.item-price{
+    margin-right: 0px;
+    margin-left: auto;
 }
