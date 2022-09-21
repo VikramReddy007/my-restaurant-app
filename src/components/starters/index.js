@@ -7,7 +7,8 @@ const VegMenu = [
   {
     id: 1,
     name: "Sweet Corn Soup",
-    price: 100
+    price: 100,
+    image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
   },
 
   {
@@ -104,6 +105,7 @@ const getDishes = (type) => {
             <div className="dishes">
               <div className="dish-item item-name">{menuItem.name}</div>
               <div className="dish-item item-price">Rs. {menuItem.price}/-</div>
+              <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
             </div>
           ))}
         </div>
@@ -112,9 +114,10 @@ const getDishes = (type) => {
       return (
         <div>
           {NonVegMenu.map((menuItem) => (
-            <div className="dishes">
+            <div className="dishes">0
               <div className="dish-item item-name">{menuItem.name}</div>
               <div className="dish-item item-price">Rs. {menuItem.price}/-</div>
+              <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
             </div>
           ))}
         </div>

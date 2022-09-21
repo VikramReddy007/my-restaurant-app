@@ -1,3 +1,8 @@
+@font-face {
+    font-family: SerifaBT;
+    src: url("Prompt-Medium.ttf");
+}
+
 .options-wrapper{
     display: flex;
     height: 75px;
@@ -17,14 +22,14 @@
 }
 
 .tab-image{
-    height: 30px;
-    width: 30px;
-    max-width: 40px;
+    height: 40px;
+    width: 40px;
+    max-width: 80px;
     border-radius: 50%;
 }
 
 .active-tab{
-    border-bottom: 5px solid var(--zomato-red);
+    border-bottom: 5px solid var(--mc-red);
     border-radius: 5%;
     font-size: 22px;
     font-weight: bold;
@@ -32,12 +37,13 @@
 
 .tab-name{
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: SerifaBT;
 }
 
 hr{
     width: 33%;
-    border: 3px solid var(--zomato-red);
+    border: 3px solid var(--mc-red);
     border-radius: 10px;
 }
 
