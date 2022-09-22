@@ -4,6 +4,12 @@
     margin: 0px auto;
 }    
 
+.max-width-menu{
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto;
+}
+
 .absolute-center {
     display: flex;
     justify-content: center;

@@ -111,7 +111,7 @@ const Starters = () => {
   };
 
   return (
-    <div className="menu-items max-width">
+    <div className="menu-items max-width-menu">
       <label className="switch-dish-type">
         <p>VEG</p>
         <Switch
