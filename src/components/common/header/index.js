@@ -7,9 +7,9 @@ import '../../../styles/commonClasses.css'
 const Header = () => {
   return (
     <>
-      <div className='max-width header'>
+      <div className='header  max-width'>
           <img src={mainLogo} alt='My Restaurant' className='header-logo' />
-          <img src={titleLogo} alt='Mana Chutneys' className='title-logo max-width absolute-center' />
+          <img src={titleLogo} alt='Mana Chutneys' className='title-logo max-width' />
       </div>      
     </>
   )

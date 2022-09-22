@@ -13,16 +13,22 @@
     align-items: center;
 }
 
+.item-name{
+    font-size: large;
+}
+
 .item-price{
-    font-size: small;
-    
+    font-size: small;    
 }
 
 .dish-image{
-    height: 96px;
-    width: 118px;
-    border-radius: 10px;
-    margin-left: 60%;
-    bottom: 10px;
-    top: 5px;
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;    
+}
+
+.dish-sec-whole{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
