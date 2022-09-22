@@ -105,7 +105,7 @@ const NonVegMenu = [
 
 const Starters = () => {
 
-  const [selected, setChecked] = useState("NV");
+  const [selected, setChecked] = useState("V");
   const handleChange = () => {
     setChecked((menu) => menu === "V" ? "NV" : "V");
   };
