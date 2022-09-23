@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Soups",
+        "listItems": [
+            {
+                "id": 1,
+                "name": "Sweet Corn Soup",
+                "price": 100,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Tomato Bath",
+                "price": 90,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Veg Manchow Soup",
+                "price": 110,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Veg Hot and Sour Soup",
+                "price": 100,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    },
+    {
+        "name": "Paneer Starters",
+        "listItems": [
+            {
+                "id": 1,
+                "name": "Paneer Nuggets",
+                "price": 100,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Paneer Tikka",
+                "price": 90,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Malai Paneer Tikka",
+                "price": 110,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Chilly Paneer",
+                "price": 100,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Chilly Paneer",
+                "price": 100,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    },
+    {
+        "name": "Mix-Veg Starters",
+        "listItems": [
+            {
+                "id": 1,
+                "name": "Aloo Tikki",
+                "price": 100,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Dahi Aloo Tikki",
+                "price": 90,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "French Fries",
+                "price": 110,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Gobi Manchurian",
+                "price": 100,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Spring rolls",
+                "price": 100,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    }
+]
