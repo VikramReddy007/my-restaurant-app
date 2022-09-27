@@ -5,27 +5,12 @@
 
 .options-wrapper{
     display: flex;
-    height: 75px;
+    justify-content: space-between;
+    height: 50px;
 }
 
 .tab-item{
-    margin-right: 5px;
-    /* padding: 12px 12px 20px 12px; */
-    padding-right: 10px;
-    width: calc(33.3%);
-}
-
-.tab-image-container{
-    height: 20px;
     width: 100%;
-    padding-right: 5px;
-}
-
-.tab-image{
-    height: 40px;
-    width: 40px;
-    max-width: 80px;
-    border-radius: 50%;
 }
 
 .tab-name{
@@ -38,20 +23,4 @@
     border-bottom: 5px solid var(--mc-red);
     border-radius: 5%;
     font-weight: bold;
-}
-
-.tab-option-bar{
-    display: flex;
-    /* height: 10px; */
-    width: calc(33%);
-}
-
-hr.Starters{ 
-    margin-left: 0;  
-}
-hr.MainCourse{ 
-    margin-left: calc(33%); 
-}
-hr.Deserts{ 
-    margin-left: calc(66%);
 }

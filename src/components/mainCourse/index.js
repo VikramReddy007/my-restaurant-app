@@ -1,107 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../styles/commonClasses.css'
-import { useState } from 'react'
 import Switch from 'react-switch'
-
-const VegMenu = [
-  {
-    id: 1,
-    name: "",
-    price: 100
-  },
-
-  {
-    id: 2,
-    name: "Tomato Bath",
-    price: 90
-  },
-
-  {
-    id: 3,
-    name: "Veg Manchow Soup",
-    price: 110
-  },
-
-  {
-    id: 4,
-    name: "Veg Hot and Sour Soup",
-    price: 100
-  }
-
-];
-
-const NonVegMenu = [
-  {
-    id: 5,
-    name: "Chicken Moghlai",
-    price: 120,
-  },
-
-  {
-    id: 6,
-    name: "Chicken Chettinad",
-    price: 110,
-  },
-
-  {
-    id: 7,
-    name: "Chicken Chat Pat",
-    price: 130,
-  },
-
-  {
-    id: 8,
-    name: "Chicken Doplaza",
-    price: 120,
-  },
-  {
-    id: 9,
-    name: "Chicken Shahi Kurma",
-    price: 120,
-  },
-
-  {
-    id: 10,
-    name: "Chicken Nawabi",
-    price: 110,
-  },
-
-  {
-    id: 11,
-    name: "Afghani Chicken",
-    price: 130,
-  },
-
-  {
-    id: 12,
-    name: "Kadai Chicken",
-    price: 120,
-  },
-  {
-    id: 13,
-    name: "Andhra Chicken",
-    price: 120,
-  },
-
-  {
-    id: 14,
-    name: "Butter Chicken",
-    price: 110,
-  },
-
-  {
-    id: 15,
-    name: "Dham-ka-Chicken",
-    price: 130,
-  },
-
-  {
-    id: 16,
-    name: "Chicken Tikka Masala",
-    price: 120,
-  }
-
-];
+import VegMenu from '../menu/VegMenu.json'
+import NonVegMenu from '../menu/NonVegMenu.json'
 
 const MainCourse = () => {
   const [checked, setChecked] = useState("V");
@@ -146,10 +47,22 @@ const getDishes = (type) => {
       return (
         <div>
           {VegMenu.map((menuItem) => (
-            <div className="dishes">
-              <div className="dish-item item-name">{menuItem.name}</div>
-              <div className="dish-item item-price">Rs. {menuItem.price}/-</div>
-            </div>
+            <>
+              <h3>{menuItem.name} </h3>
+              {menuItem.listItems.map((item) => (
+                <>
+                  <hr />
+                  <div className='dish-sec-whole'>
+                    <div className="dish-sec-name-price">
+                      <div className="dish-item item-name">{item.name}</div>
+                      <div className="dish-item item-price">Rs. {item.price}/-</div>
+                    </div>
+                    <img className="dish-image" src={item.image} alt={item.name} />
+                  </div>
+                </>
+              ))}
+              <div><hr className='dish-sec-border' /></div>
+            </>
           ))}
         </div>
       )
@@ -157,10 +70,22 @@ const getDishes = (type) => {
       return (
         <div>
           {NonVegMenu.map((menuItem) => (
-            <div className="dishes">
-              <div className="dish-item item-name">{menuItem.name}</div>
-              <div className="dish-item item-price">Rs. {menuItem.price}/-</div>
-            </div>
+            <>
+              <h3>{menuItem.name} </h3>
+              {menuItem.listItems.map((item) => (
+                <>
+                  <hr />
+                  <div className='dish-sec-whole'>
+                    <div className="dish-sec-name-price">
+                      <div className="dish-item item-name">{item.name}</div>
+                      <div className="dish-item item-price">Rs. {item.price}/-</div>
+                    </div>
+                    <img className="dish-image" src={item.image} alt={item.name} />
+                  </div>
+                </>
+              ))}
+              <div><hr className='dish-sec-border' /></div>
+            </>
           ))}
         </div>
       )

@@ -1,6 +1,7 @@
 .header{
-    /* width: 100%; */
+    width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     background-color: #FFCB06;
 }
@@ -13,6 +14,7 @@
 }
 
 .title-logo{
-    height: 70px;
-    width: 100px;
+    height: 60px;
+    width: 90px;
+    overflow: hidden;
 }
