@@ -3,6 +3,7 @@ import '../../styles/commonClasses.css'
 import Switch from 'react-switch'
 import VegMenu from '../menu/VegMenu.json'
 import NonVegMenu from '../menu/NonVegMenu.json'
+import "../menu/menuItems.css"
 
 const MainCourse = () => {
   const [checked, setChecked] = useState("V");
@@ -10,8 +11,9 @@ const MainCourse = () => {
     setChecked((menu) => menu === "V" ? "NV" : "V");
   };
 
+
   return (
-    <div className="menu-items max-width">
+    <div className="menu-items max-width-menu">
       <label className="switch-dish-type">
         <p>VEG</p>
         <Switch

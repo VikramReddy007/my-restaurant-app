@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import "./starters.css"
+import "../menu/menuItems.css"
 import '../../styles/commonClasses.css'
 import Switch from 'react-switch'
-import VegMenu from './menu/VegMenu.json'
-import NonVegMenu from './menu/NonVegMenu.json'
+import VegMenu from '../menu/VegMenu.json'
+import NonVegMenu from '../menu/NonVegMenu.json'
 
 const Starters = () => {
 
