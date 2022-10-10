@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Beverages",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/beverages_5MFoPIPGy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665424677738",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Butter Milk ",
+                "price": 30
+               },
+               {
+                "id": 2,
+                "name": "Lassi",
+                "price": 60
+               },
+               {
+                "id": 3,
+                "name": "Apple Juice ",
+                "price": 60
+               },
+               {
+                "id": 4,
+                "name": "Pineapple Juice",
+                "price": 60
+               },
+               {
+                "id": 5,
+                "name": "Orange Juice",
+                "price": 60
+               },
+               {
+                "id": 6,
+                "name": "Mosambi Juice",
+                "price": 60
+               },
+               {
+                "id": 7,
+                "name": "Grape Juice",
+                "price": 60
+               },
+               {
+                "id": 8,
+                "name": "Water melon Juice",
+                "price": 60
+               },
+               {
+                "id": 9,
+                "name": "Venila Milk shakes",
+                "price": 60
+               },
+               {
+                "id": 10,
+                "name": "Strawberry Milk shakes",
+                "price": 60
+               },
+               {
+                "id": 11,
+                "name": "Butter Scotch Milk shakes",
+                "price": 60
+               },
+               {
+                "id": 12,
+                "name": "Pista Milk shakes",
+                "price": 60
+               },
+               {
+                "id": 13,
+                "name": "Mango Milk shakes",
+                "price": 60
+               },
+               {
+                "id": 14,
+                "name": "Chocolate Milk shakes",
+                "price": 60
+               }
+        ]
+    }
+]

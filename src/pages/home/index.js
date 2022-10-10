@@ -5,6 +5,7 @@ import TabOptions from '../../components/common/tabOptions';
 import BiryaniAndRice from '../../components/biryaniandrice';
 import MainCourse from '../../components/mainCourse';
 import Starters from '../../components/starters';
+import Beverages from '../../components/Beverages';
 
 const HomePage = () => {
 
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Header />
       <TabOptions activeTab={activeTab} setActiveTab={setActiveTab}/>
       {getCorrectScreen(activeTab)}
+      <Beverages />  
       <Footer />
     </div>
   )
