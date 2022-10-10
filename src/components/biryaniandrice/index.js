@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
+import VegMenu from '../menu/BiryaniAndRiceVegMenu.json'
+import NonVegMenu from '../menu/BiryaniAndRiceNonVegMenu.json'
 import '../../styles/commonClasses.css'
 import Switch from 'react-switch'
-import VegMenu from '../menu/MainCourseVegMenu.json'
-import NonVegMenu from '../menu/MainCourseNonVegMenu.json'
 import "../menu/menuItems.css"
 
-const MainCourse = () => {
+const Deserts = () => {
   const [checked, setChecked] = useState("V");
   const handleChange = () => {
     setChecked((menu) => menu === "V" ? "NV" : "V");
@@ -98,4 +98,4 @@ const getDishes = (type) => {
   }
 }
 
-export default MainCourse;
+export default Deserts;

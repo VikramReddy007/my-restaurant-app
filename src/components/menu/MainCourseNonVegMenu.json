@@ -1,0 +1,371 @@
+[
+    {
+        "name": "Tandoori Non-Veg",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/TandooriNonVeg_Bmz3ovB89.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665421482541",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Tangdi Kabab (Full)",
+                "price": 380,
+                "image": "https://1res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Tangdi Kabab (Half)",
+                "price": 199,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/ChickenManchowSoup_S_IkOU8xux.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181863"
+            },
+            {
+                "id": 3,
+                "name": "Tandoori Chicken (Full)",
+                "price": 430,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Tandoori Chicken (Half)",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 1,
+                "name": "Chicken Tikka",
+                "price": 320,
+                "image": "https://1res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Murgh Malai Kabab",
+                "price": 330,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/ChickenManchowSoup_S_IkOU8xux.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181863"
+            },
+            {
+                "id": 3,
+                "name": "Chicken Hariyali Kabab",
+                "price": 330,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Chicken Ginger Kabab",
+                "price": 330,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Chicken Garlic Kabab",
+                "price": 340,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Chicken Mirchi Kabab",
+                "price": 340,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    },
+    {
+        "name": "Main Course - Egg",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/EggMainCourse_Y2pjZN57Z.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665421558193",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Egg Curry",
+                "price": 235,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Egg Masala",
+                "price": 235,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Egg Bhurji",
+                "price": 240,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    },
+    {
+        "name": "Main Course – Non Veg",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/NonVegMainCourse_XQz-BjrlE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665421785979",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Andhra Chicken",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Andhra Chicken Boneless",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Butter Chicken",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Chicken Curry",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Chicken Curry Boneless",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Chicken Afghani",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 1,
+                "name": "Chicken Chat Phat",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Kadai Chicken",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Khandari Chicken",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Gongura Chicken",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Methi Chicken",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Panjabi Chicken",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 1,
+                "name": "Chicken Vepudu",
+                "price": 295,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Chutney’s Special Chicken",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Mutton Curry",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Mutton Masala",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Mutton Rogan Josh",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Gongura Mutton",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 1,
+                "name": "Kadai Muttion",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Mughlai Chicken",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Mana Chutney’s Chicken Maharaja",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Mana Chutney’s Talwa Chicken",
+                "price": 280,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Mana Chutney’s Special Mutton Curry",
+                "price": 310,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Chicken Manchuria wet",
+                "price": 230,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 1,
+                "name": "Chicken American Chop Suey",
+                "price": 230,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Chicken Chinese Chop Suey",
+                "price": 230,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    },
+    {
+        "name": "Main Course – Sea food",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/FishMainCourse_vIl6rKw5b.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665421864339",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Fish Curry",
+                "price": 290,
+                "image": "https://1res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Kadai Fish",
+                "price": 290,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/ChickenManchowSoup_S_IkOU8xux.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181863"
+            },
+            {
+                "id": 3,
+                "name": "Fish Masala",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Prawns Curry",
+                "price": 290,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 1,
+                "name": "Kadai Prawns",
+                "price": 290,
+                "image": "https://1res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    },
+    {
+        "name": "Indian Breads",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/Naan_A3tMeAbPi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665419879222",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Pulka",
+                "price": "25"
+            },
+            {
+                "id": 2,
+                "name": "Roti",
+                "price": "25"
+            },
+            {
+                "id": 3,
+                "name": "Butter Roti",
+                "price": "30"
+            },
+            {
+                "id": 4,
+                "name": "Pudina Roti",
+                "price": "35 "
+            },
+            {
+                "id": 5,
+                "name": "Methi Roti",
+                "price": "35"
+            },
+            {
+                "id": 6,
+                "name": "Naan",
+                "price": "30"
+            },
+            {
+                "id": 7,
+                "name": "Butter Naan",
+                "price": "35"
+            },
+            {
+                "id": 8,
+                "name": "Garlic Naan",
+                "price": "45"
+            },
+            {
+                "id": 9,
+                "name": "Plain Kulcha",
+                "price": "40"
+            },
+            {
+                "id": 10,
+                "name": "Masala Kulcha",
+                "price": "55"
+            },
+            {
+                "id": 11,
+                "name": "Butter Kulcha",
+                "price": "45"
+            },
+            {
+                "id": 12,
+                "name": "Plain Paratha",
+                "price": "40"
+            },
+            {
+                "id": 13,
+                "name": "Aloo Paratha",
+                "price": "55"
+            },
+            {
+                "id": 14,
+                "name": "Butter Paratha",
+                "price": "45"
+            }
+        ]
+    }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "name": "Rice and Noodles  Veg",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/RiceAndNoodles_sOwg3VweU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665420530470",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Veg Soft Noodles",
+                "price": 259
+            },
+            {
+                "id": 2,
+                "name": "Veg Hakka Noodles",
+                "price": 279
+            },
+            {
+                "id": 3,
+                "name": "Veg Singapoor Noodles",
+                "price": 279
+            },
+            {
+                "id": 4,
+                "name": "Schezwan veg soft Noodles",
+                "price": 279
+            },
+            {
+                "id": 5,
+                "name": "Mixed Soft Noodles Veg",
+                "price": 300
+            },
+            {
+                "id": 6,
+                "name": "Vegetable Fried Rice",
+                "price": 250
+            },
+            {
+                "id": 7,
+                "name": "Jeera Rice",
+                "price": 240
+            },
+            {
+                "id": 8,
+                "name": "Khaju Fried Rice",
+                "price": 260
+            },
+            {
+                "id": 9,
+                "name": "Paneer Fried Rice",
+                "price": 260
+            },
+            {
+                "id": 10,
+                "name": "Schezwan Vegetable Fried Rice",
+                "price": 260
+            }
+        ]
+    },
+    {
+        "name": "Biryani Veg",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/VegBiryani_4IWKW6zq3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665420683500",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Biryani Rice ",
+                "price": 180
+            },
+            {
+                "id": 2,
+                "name": "Veg Biryani",
+                "price": 190
+            },
+            {
+                "id": 3,
+                "name": "Paneer Biryani",
+                "price": 260
+            },
+            {
+                "id": 4,
+                "name": "Khaju Biryani",
+                "price": 260
+            },
+            {
+                "id": 5,
+                "name": "Mashroom Biryani",
+                "price": 260
+            },
+            {
+                "id": 6,
+                "name": "Ulavacharu Veg Biryani",
+                "price": 210
+            }
+        ]
+    },
+    {
+        "name": "Pulao",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/Pulao_A6uA9LuGg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665420777746",
+        "listItems":
+        [
+           {
+                "id": 1,
+                "name": "Veg Pulao",
+                "price": 190
+            },
+            {
+                "id": 2,
+                "name": "Kashmir Pulao",
+                "price": 240
+            },
+            {
+                "id": 3,
+                "name": "Green Peas Pulao",
+                "price": 200
+            }    
+        ]
+    }
+]

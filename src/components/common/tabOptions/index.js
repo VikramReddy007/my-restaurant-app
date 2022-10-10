@@ -23,7 +23,7 @@ const tabs = [
 
   {
     id: 3, 
-    name: "Deserts",
+    name: "Biryani/Rice",
     active_img: DesertsImage,
     backdrop: "#FCEEC0",
     inactive_img: "./images/Deserts.png",

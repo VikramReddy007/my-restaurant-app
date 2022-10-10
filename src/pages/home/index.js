@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Footer from '../../components/common/footer';
 import Header from '../../components/common/header';
 import TabOptions from '../../components/common/tabOptions';
-import Deserts from '../../components/deserts';
+import BiryaniAndRice from '../../components/biryaniandrice';
 import MainCourse from '../../components/mainCourse';
 import Starters from '../../components/starters';
 
@@ -26,8 +26,8 @@ const getCorrectScreen = (tab) => {
       return <Starters />
     case 'MainCourse':
       return <MainCourse />
-    case 'Deserts':
-      return <Deserts />
+    case 'Biryani/Rice':
+      return <BiryaniAndRice />
     default: return <div>Starters!</div>
   }
 }

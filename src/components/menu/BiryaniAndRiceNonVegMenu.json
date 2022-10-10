@@ -1,0 +1,190 @@
+[
+    {
+        "name": "Rice and Noodles  Non - Veg",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/RiceNonVeg_N74zt6LGV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665422121367",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Egg Noodles",
+                "price": 249
+            },
+            {
+                "id": 2,
+                "name": "Schezwan EEgg SSoft Noodles",
+                "price": 259
+            },
+            {
+                "id": 3,
+                "name": "Chicken SSoft Noodles",
+                "price": 270
+            },
+            {
+                "id": 4,
+                "name": "Chicken SSingapoor Noodles",
+                "price": 280
+            },
+            {
+                "id": 5,
+                "name": "Schezwan CChicken Softnoodles",
+                "price": 280
+            },
+            {
+                "id": 6,
+                "name": "Mixed SSoft NNoodles NNon – Veg",
+                "price": 300
+            },
+            {
+                "id": 7,
+                "name": "Egg FFried Rice",
+                "price": 249
+            },
+            {
+                "id": 8,
+                "name": "Chicken FFried Rice",
+                "price": 270
+            },
+            {
+                "id": 9,
+                "name": "Schezwan EEgg FFried Rice",
+                "price": 259
+            },
+            {
+                "id": 10,
+                "name": "Schezwan CChicken FFried Rice",
+                "price": 280
+            },
+            {
+                "id": 11,
+                "name": "Mixed FFried RRice NNon Veg",
+                "price": 300
+            },
+            {
+                "id": 12,
+                "name": "Mutton FFried Rice",
+                "price": 290
+            }
+        ]
+    },
+    {
+        "name": "Biryani Non-Veg",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/BiryaniNonVeg_qAJ_ViBq2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665422232891",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Egg Biryani",
+                "price": 220
+            },
+            {
+                "id": 2,
+                "name": "Chicken Dum Briyani Single",
+                "price": 140
+            },
+            {
+                "id": 3,
+                "name": "Chicken Dum Briyani",
+                "price": 250
+            },
+            {
+                "id": 4,
+                "name": "Chicken Fried Piece Biryani",
+                "price": 260
+            },
+            {
+                "id": 5,
+                "name": "Lollypop Biryani",
+                "price": 260
+            },
+            {
+                "id": 6,
+                "name": "Joint Chicken Biryani",
+                "price": 270
+            },
+            {
+                "id": 7,
+                "name": "Chettinad Biryani",
+                "price": 260
+            },
+            {
+                "id": 8,
+                "name": "Chicken Tikka Biryani",
+                "price": 280
+            },
+            {
+                "id": 9,
+                "name": "Special Chicken Biryani",
+                "price": 280
+            },
+            {
+                "id": 10,
+                "name": "Mutton Dum Biryani",
+                "price": 299
+            },
+            {
+                "id": 11,
+                "name": "Mutton Fried Peas Biryani",
+                "price": 290
+            },
+            {
+                "id": 12,
+                "name": "Mutton Kheema Biryani",
+                "price": 330
+            },
+            {
+                "id": 13,
+                "name": "Fish Biryani",
+                "price": 290
+            },
+            {
+                "id": 14,
+                "name": "Prawns Biryani",
+                "price": 290
+            },
+            {
+                "id": 15,
+                "name": "Combo Biryani Non Veg",
+                "price": 450
+            },
+            {
+                "id": 16,
+                "name": "mana Chutneys Special Biryani",
+                "price": 330
+            }
+        ]
+    },
+    {
+        "name": "Family Pack Biryani",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/BiryaniNonVeg_qAJ_ViBq2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665422232891",
+        "listItems":
+        [
+           {
+                "id": 1,
+                "name": "Chicken Biryani Mini Family",
+                "price": 410
+            },
+            {
+                "id": 2,
+                "name": "Mutton Biryani Mini Family",
+                "price": 440
+            },
+            {
+                "id": 3,
+                "name": "Special Chicken Biryani Family",
+                "price": 430
+            }    
+        ]
+    },
+    {
+        "name": "Pulao",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/Pulao_A6uA9LuGg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665420777746",
+        "listItems":
+        [
+           {
+                "id": 1,
+                "name": "Chicken Pulao",
+                "price": 240
+            }  
+        ]
+    }
+]

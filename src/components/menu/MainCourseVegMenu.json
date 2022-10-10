@@ -1,0 +1,301 @@
+[
+    {
+        "name": "Indian Breads",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/Naan_A3tMeAbPi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665419879222",
+        "listItems":
+        [
+            {
+                "id": 1,
+                "name": "Pulka",
+                "price": "25"
+            },
+            {
+                "id": 2,
+                "name": "Roti",
+                "price": "25"
+            },
+            {
+                "id": 3,
+                "name": "Butter Roti",
+                "price": "30"
+            },
+            {
+                "id": 4,
+                "name": "Pudina Roti",
+                "price": "35 "
+            },
+            {
+                "id": 5,
+                "name": "Methi Roti",
+                "price": "35"
+            },
+            {
+                "id": 6,
+                "name": "Naan",
+                "price": "30"
+            },
+            {
+                "id": 7,
+                "name": "Butter Naan",
+                "price": "35"
+            },
+            {
+                "id": 8,
+                "name": "Garlic Naan",
+                "price": "45"
+            },
+            {
+                "id": 9,
+                "name": "Plain Kulcha",
+                "price": "40"
+            },
+            {
+                "id": 10,
+                "name": "Masala Kulcha",
+                "price": "55"
+            },
+            {
+                "id": 11,
+                "name": "Butter Kulcha",
+                "price": "45"
+            },
+            {
+                "id": 12,
+                "name": "Plain Paratha",
+                "price": "40"
+            },
+            {
+                "id": 13,
+                "name": "Aloo Paratha",
+                "price": "55"
+            },
+            {
+                "id": 14,
+                "name": "Butter Paratha",
+                "price": "45"
+            }
+        ]
+    },
+    {
+        "name": "Tandoori Veg",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/Tandoori_Veg_n-3FATgJj?ik-sdk-version=javascript-1.4.3&updatedAt=1665420116360",
+        "listItems": [
+            {
+                "id": 1,
+                "name": "Paneer Tikka",
+                "price": 255,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Hariyali Paneer Tikka",
+                "price": 265,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/TomatoBath_erEfma8ee.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665074362285"
+            },
+            {
+                "id": 3,
+                "name": "Veg Harabara Kabab",
+                "price": 255,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/VegManchow_P1ZuVHI4_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181392"
+            },
+            {
+                "id": 4,
+                "name": "Veg Sheek kabab",
+                "price": 255,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/VegHotandSour_ODv6mNc9L.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181174"
+            }
+        ]
+    },
+    {
+        "name": "Main Course - Veg",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/VegMainCourse_jvGdcJKoa.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665420229291",
+        "listItems": [
+            {
+                "id": 1,
+                "name": "Dal Fry",
+                "price": 150,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Dal Tadka",
+                "price": 150,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Mudda Pappu",
+                "price": 160,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Aloo Gobi Masala",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Aloo Tomato Khurma",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 6,
+                "name": "Green Peas Masala",
+                "price": 225,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 7,
+                "name": "Capsicum Masala",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 8,
+                "name": "Aloo Capsicum with Channa",
+                "price": 225,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 9,
+                "name": "Mushroom Masala",
+                "price": 225,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 10,
+                "name": "Khaju Masala",
+                "price": 249,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 11,
+                "name": "Khaju curry",
+                "price": 249,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 12,
+                "name": "Plain Palak",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 13,
+                "name": "Palak Paneer",
+                "price": 230,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 14,
+                "name": "Kadai Paneer",
+                "price": 230,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 15,
+                "name": "Khaju Paneer",
+                "price": 240,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 16,
+                "name": "Paneer Butter Masala",
+                "price": 249,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 1,
+                "name": "Paneer Tikka Masala",
+                "price": 240,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Malai Kofta",
+                "price": 230,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Baby Corn Masala",
+                "price": 225,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Methi Chaman",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Kadai Vegetable",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 6,
+                "name": "Khandari Vegetable",
+                "price": 225,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 7,
+                "name": "Veg Kolhapuri",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 8,
+                "name": "Vegetable Jaipuri",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 9,
+                "name": "Mix Veg Curry",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 10,
+                "name": "Veg Chat Phat",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 11,
+                "name": "Tomato Curry",
+                "price": 160,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 12,
+                "name": "Veg Manchuria Wet",
+                "price": 190,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 13,
+                "name": "Paneer Manchuria wet",
+                "price": 200,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 14,
+                "name": "Veg American Chop Suey",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 15,
+                "name": "Veg Chinese Chop suey",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    }
+]

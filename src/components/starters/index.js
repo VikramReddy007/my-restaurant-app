@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import "../menu/menuItems.css"
 import '../../styles/commonClasses.css'
 import Switch from 'react-switch'
-import VegMenu from '../menu/VegMenu.json'
-import NonVegMenu from '../menu/NonVegMenu.json'
+import VegMenu from '../menu/StartersVegMenu.json'
+import NonVegMenu from '../menu/StartersNonVegMenu.json'
 
 const Starters = () => {
 
@@ -50,20 +50,23 @@ const getDishes = (type) => {
         <div>
           {VegMenu.map((menuItem) => (
             <>
-              <h3>{menuItem.name} </h3>
-                {menuItem.listItems.map((item) => (
-                  <>
+              <div className='dish-category'>
+                <h2>{menuItem.name}</h2>
+                <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
+              </div>
+              {menuItem.listItems.map((item) => (
+                <>
                   <hr />
                   <div className='dish-sec-whole'>
                     <div className="dish-sec-name-price">
                       <div className="dish-item item-name">{item.name}</div>
                       <div className="dish-item item-price">Rs. {item.price}/-</div>
                     </div>
-                    <img className="dish-image" src={item.image} alt={item.name} />
+                    {/* <img className="dish-image" src={item.image} alt={item.name}/> */}
                   </div>
-                  </>
-                ))}
-                <div><hr className='dish-sec-border'/></div>
+                </>
+              ))}
+              <div><hr className='dish-sec-border' /></div>
             </>
           ))}
         </div>
@@ -71,25 +74,28 @@ const getDishes = (type) => {
     case "NV":
       return (
         <div>
-        {NonVegMenu.map((menuItem) => (
-          <>
-            <h3>{menuItem.name} </h3>
+          {NonVegMenu.map((menuItem) => (
+            <>
+              <div className='dish-category'>
+                <h2>{menuItem.name}</h2>
+                <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
+              </div>
               {menuItem.listItems.map((item) => (
                 <>
-                <hr />
-                <div className='dish-sec-whole'>
-                  <div className="dish-sec-name-price">
-                    <div className="dish-item item-name">{item.name}</div>
-                    <div className="dish-item item-price">Rs. {item.price}/-</div>
+                  <hr />
+                  <div className='dish-sec-whole'>
+                    <div className="dish-sec-name-price">
+                      <div className="dish-item item-name">{item.name}</div>
+                      <div className="dish-item item-price">Rs. {item.price}/-</div>
+                    </div>
+                    {/* <img className="dish-image" src={item.image} alt={item.name}/> */}
                   </div>
-                  <img className="dish-image" src={item.image} alt={item.name} />
-                </div>
                 </>
               ))}
-              <div><hr className='dish-sec-border'/></div>
-          </>
-        ))}
-      </div>
+              <div><hr className='dish-sec-border' /></div>
+            </>
+          ))}
+        </div>
       )
   }
 }

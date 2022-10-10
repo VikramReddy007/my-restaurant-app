@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Soups",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/VegSoup_Eoqh720-A.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665422607475",
+        "listItems": [
+            {
+                "id": 1,
+                "name": "Baby Corn Soup",
+                "price": 110,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Tomato Bath",
+                "price": 110,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/TomatoBath_erEfma8ee.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665074362285"
+            },
+            {
+                "id": 3,
+                "name": "Veg Manchow Soup",
+                "price": 110,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/VegManchow_P1ZuVHI4_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181392"
+            },
+            {
+                "id": 4,
+                "name": "Veg Hot and Sour Soup",
+                "price": 110,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/VegHotandSour_ODv6mNc9L.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181174"
+            },
+            {
+                "id": 5,
+                "name": "Veg Corn Soup",
+                "price": 110,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/VegHotandSour_ODv6mNc9L.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181174"
+            },
+            {
+                "id": 6,
+                "name": "Lemon Coriander Soup",
+                "price": 110,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/VegHotandSour_ODv6mNc9L.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181174"
+            },
+            {
+                "id": 7,
+                "name": "Mushroom Soup",
+                "price": 110,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/VegHotandSour_ODv6mNc9L.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181174"
+            }
+        ]
+    },
+    {
+        "name": "Veg Starters",
+        "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/kqtct7bpxpdoquvrbauw",
+        "listItems": [
+            {
+                "id": 1,
+                "name": "Veg Spring Roll",
+                "price": 209,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Veg Shanghai Rolls",
+                "price": 255,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Veg Manchuria",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Aloo 65",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Gobi Manchuria / Gobi 65",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 6,
+                "name": "Baby Corn Manchuria",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 7,
+                "name": "Chilli Baby Corn / Baby Corn 65",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 8,
+                "name": "Baby Corn Majestic ",
+                "price": 220,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 9,
+                "name": "Paneer Manchuria",
+                "price": 219,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 10,
+                "name": "Chilli Paneer / Paneer 65",
+                "price": 219,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 11,
+                "name": "Mushroom Manchuria",
+                "price": 219,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 12,
+                "name": "Chilli Mushroom / Mushroom 65",
+                "price": 219,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 13,
+                "name": "Crispy Veg",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 14,
+                "name": "Crispy Corn",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 15,
+                "name": "French Fries",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 16,
+                "name": "Onion Pakoda",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    },
+    {
+        "name": "Egg Starters",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/Eggs-Starters_g-SpC3tj6.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665419755347",
+        "listItems": [
+            {
+                "id": 1,
+                "name": "Egg Manchuria",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Chilli Egg",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Egg 65",
+                "price": 199,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Egg Fu-Yung",
+                "price": 229,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Egg Spring Roll",
+                "price": 209,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            }
+        ]
+    }
+]

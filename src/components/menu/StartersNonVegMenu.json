@@ -1,134 +1,162 @@
 [
     {
         "name": "Soups",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/NonVegSoup_uynHcsFEt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665420950154",
         "listItems": [
             {
                 "id": 1,
-                "name": "Chicken Regular Soup",
-                "price": 100,
-                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+                "name": "Chicken Noodles Soup",
+                "price": 120,
+                "image": "https://1res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 2,
                 "name": "Chicken Manchow",
-                "price": 90,
-                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+                "price": 120,
+                "image": "https://ik.imagekit.io/vb0g5zv8u/ChickenManchowSoup_S_IkOU8xux.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181863"
             },
             {
                 "id": 3,
                 "name": "Chicken Hot&Sour Soup",
-                "price": 110,
+                "price": 120,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 4,
                 "name": "Sweet Corn Chicken Soup",
-                "price": 100,
+                "price": 120,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             }
         ]
     },
     {
         "name": "Chicken Starters",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/chickenStarter_w5bAeAD0M.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665421203303",
         "listItems": [
             {
                 "id": 1,
-                "name": "Lemon Chicken",
-                "price": 100,
+                "name": "Chicken 65 ",
+                "price": 235,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 2,
-                "name": "Lolipop Chicken",
-                "price": 90,
+                "name": "Chicken Manchuria",
+                "price": 235,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 3,
-                "name": "Cashew Nut Chicken",
-                "price": 110,
+                "name": "Chicken Majestic",
+                "price": 240,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 4,
-                "name": "Chicken 65",
-                "price": 100,
+                "name": "Chicken Drumstick",
+                "price": 240,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 5,
-                "name": "Chilly Chicken",
-                "price": 100,
+                "name": "Chicken Lollipop",
+                "price": 250,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 1,
+                "name": "Chilli Chicken",
+                "price": 235,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Pepper Chicken",
+                "price": 240,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Chicken 555",
+                "price": 240,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Yoga Chicken",
+                "price": 255,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Schezwan Chicken",
+                "price": 260,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 2,
+                "name": "Chicken Spring Roll",
+                "price": 240,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 3,
+                "name": "Chicken Mongolian",
+                "price": 240,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 4,
+                "name": "Royal Chicken",
+                "price": 240,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Green Hill Chicken",
+                "price": 240,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             }
         ]
     },
     {
-        "name": "Mutton Starters",
-        "listItems": [
-            {
-                "id": 1,
-                "name": "Mutton Fry Boneless",
-                "price": 100,
-                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
-            },
-            {
-                "id": 2,
-                "name": "Chilli Mutton",
-                "price": 90,
-                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
-            },
-            {
-                "id": 3,
-                "name": "Ginger Mutton",
-                "price": 110,
-                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
-            },
-            {
-                "id": 4,
-                "name": "Mutton Manchurian",
-                "price": 100,
-                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
-            },
-            {
-                "id": 5,
-                "name": "Pepper Mutton Dry",
-                "price": 100,
-                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
-            }
-        ]
-    },
-    {
-        "name": "Fish/Prawns Starters",
+        "name": "Sea Food Starters",
+        "image": "https://ik.imagekit.io/vb0g5zv8u/FishStarter_DWj7kjVpC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665421386890",
         "listItems": [
             {
                 "id": 1,
                 "name": "Apollo Fish",
-                "price": 100,
+                "price": 265,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 2,
-                "name": "Andhra Prawns Fry",
-                "price": 90,
+                "name": "Chilli Fish",
+                "price": 265,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 3,
-                "name": "Chilli Prawns",
-                "price": 110,
+                "name": "Fried Fish",
+                "price": 280,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 4,
-                "name": "Prawn 65",
-                "price": 100,
+                "name": "Loose Prawns",
+                "price": 265,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 5,
-                "name": "Chilli Loose Prawns",
-                "price": 100,
+                "name": "Pepper Prawns",
+                "price": 265,
+                "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
+            },
+            {
+                "id": 5,
+                "name": "Golden Fried Prawns",
+                "price": 280,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             }
         ]
