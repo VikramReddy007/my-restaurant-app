@@ -3,7 +3,10 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div className='max-width created-by'>Created by Mokalla's!</div>
+    <div className='max-width created-by'>
+      <p>🤝THANK YOU SO MUCH, PLEASE VISIT AGAIN!🤝</p>
+      <p>Created by Team ManaChutneys with ❤️!</p>
+    </div>
   )
 }
 
