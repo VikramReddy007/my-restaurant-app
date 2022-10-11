@@ -11,57 +11,57 @@
             },
             {
                 "id": 2,
-                "name": "Schezwan EEgg SSoft Noodles",
+                "name": "Schezwan Egg SSoft Noodles",
                 "price": 259
             },
             {
                 "id": 3,
-                "name": "Chicken SSoft Noodles",
+                "name": "Chicken Soft Noodles",
                 "price": 270
             },
             {
                 "id": 4,
-                "name": "Chicken SSingapoor Noodles",
+                "name": "Chicken Singapoor Noodles",
                 "price": 280
             },
             {
                 "id": 5,
-                "name": "Schezwan CChicken Softnoodles",
+                "name": "Schezwan Chicken Softnoodles",
                 "price": 280
             },
             {
                 "id": 6,
-                "name": "Mixed SSoft NNoodles NNon – Veg",
+                "name": "Mixed Soft Noodles Non–Veg",
                 "price": 300
             },
             {
                 "id": 7,
-                "name": "Egg FFried Rice",
+                "name": "Egg Fried Rice",
                 "price": 249
             },
             {
                 "id": 8,
-                "name": "Chicken FFried Rice",
+                "name": "Chicken Fried Rice",
                 "price": 270
             },
             {
                 "id": 9,
-                "name": "Schezwan EEgg FFried Rice",
+                "name": "Schezwan Egg Fried Rice",
                 "price": 259
             },
             {
                 "id": 10,
-                "name": "Schezwan CChicken FFried Rice",
+                "name": "Schezwan Chicken Fried Rice",
                 "price": 280
             },
             {
                 "id": 11,
-                "name": "Mixed FFried RRice NNon Veg",
+                "name": "Mixed Fried Rice Non Veg",
                 "price": 300
             },
             {
                 "id": 12,
-                "name": "Mutton FFried Rice",
+                "name": "Mutton Fried Rice",
                 "price": 290
             }
         ]
@@ -148,7 +148,7 @@
             },
             {
                 "id": 16,
-                "name": "mana Chutneys Special Biryani",
+                "name": "Mana Chutneys Special Biryani",
                 "price": 330
             }
         ]
