@@ -39,7 +39,10 @@ const TabOptions = ({ activeTab, setActiveTab }) => {
             className={`tab-item absolute-center cur-po ${
               activeTab === tab.name && "active-tab"
             }`}
-            onClick={() => setActiveTab(tab.name)}
+            onClick={() => {
+              window.scrollTo({top: 60, behavior: "smooth"})
+              setActiveTab(tab.name)}
+            }
           >
           <div className="tab-name absolute-center">{tab.name}</div>
           </div>
