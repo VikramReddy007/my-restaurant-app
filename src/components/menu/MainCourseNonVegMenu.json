@@ -6,13 +6,13 @@
         [
             {
                 "id": 1,
-                "name": "Tangdi Kabab (Full)",
+                "name": "Tangdi Kebab (Full)",
                 "price": 380,
                 "image": "https://1res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 2,
-                "name": "Tangdi Kabab (Half)",
+                "name": "Tangdi Kebab (Half)",
                 "price": 199,
                 "image": "https://ik.imagekit.io/vb0g5zv8u/ChickenManchowSoup_S_IkOU8xux.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181863"
             },
@@ -36,31 +36,31 @@
             },
             {
                 "id": 2,
-                "name": "Murgh Malai Kabab",
+                "name": "Murgh Malai Kebab",
                 "price": 330,
                 "image": "https://ik.imagekit.io/vb0g5zv8u/ChickenManchowSoup_S_IkOU8xux.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665074181863"
             },
             {
                 "id": 3,
-                "name": "Chicken Hariyali Kabab",
+                "name": "Chicken Hariyali Kebab",
                 "price": 330,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 4,
-                "name": "Chicken Ginger Kabab",
+                "name": "Chicken Ginger Kebab",
                 "price": 330,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 3,
-                "name": "Chicken Garlic Kabab",
+                "name": "Chicken Garlic Kebab",
                 "price": 340,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 4,
-                "name": "Chicken Mirchi Kabab",
+                "name": "Chicken Mirchi Kebab",
                 "price": 340,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             }
@@ -314,7 +314,7 @@
             {
                 "id": 4,
                 "name": "Pudina Roti",
-                "price": "35 "
+                "price": "35"
             },
             {
                 "id": 5,
