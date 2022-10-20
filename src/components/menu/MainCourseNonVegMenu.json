@@ -206,7 +206,7 @@
             },
             {
                 "id": 1,
-                "name": "Kadai Muttion",
+                "name": "Kadai Mutton",
                 "price": 290,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
@@ -218,19 +218,19 @@
             },
             {
                 "id": 3,
-                "name": "Mana Chutney’s Chicken Maharaja",
+                "name": "Mana Chutneys Chicken Maharaja",
                 "price": 290,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 4,
-                "name": "Mana Chutney’s Talwa Chicken",
+                "name": "Mana Chutneys Talwa Chicken",
                 "price": 280,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
             {
                 "id": 5,
-                "name": "Mana Chutney’s Special Mutton Curry",
+                "name": "Mana Chutneys Special Mutton Curry",
                 "price": 310,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
