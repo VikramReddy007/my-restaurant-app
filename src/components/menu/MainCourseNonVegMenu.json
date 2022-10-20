@@ -164,7 +164,7 @@
             },
             {
                 "id": 5,
-                "name": "Panjabi Chicken",
+                "name": "Punjabi Chicken",
                 "price": 290,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
@@ -176,7 +176,7 @@
             },
             {
                 "id": 2,
-                "name": "Chutney’s Special Chicken",
+                "name": "Chutneys Special Chicken",
                 "price": 290,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
