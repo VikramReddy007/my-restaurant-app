@@ -21,12 +21,12 @@
             },
             {
                 "id": 4,
-                "name": "Chicken Singapoor Noodles",
+                "name": "Chicken Singapore Noodles",
                 "price": 280
             },
             {
                 "id": 5,
-                "name": "Schezwan Chicken Softnoodles",
+                "name": "Schezwan Chicken Soft Noodles",
                 "price": 280
             },
             {
@@ -93,7 +93,7 @@
             },
             {
                 "id": 5,
-                "name": "Lollypop Biryani",
+                "name": "Lollipop Biryani",
                 "price": 260
             },
             {
@@ -123,7 +123,7 @@
             },
             {
                 "id": 11,
-                "name": "Mutton Fried Peas Biryani",
+                "name": "Mutton Fried Piece Biryani",
                 "price": 290
             },
             {

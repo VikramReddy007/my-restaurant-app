@@ -46,32 +46,32 @@
                },
                {
                 "id": 9,
-                "name": "Vanilla Milk shakes",
+                "name": "Vanilla Milk shake",
                 "price": 60
                },
                {
                 "id": 10,
-                "name": "Strawberry Milk shakes",
+                "name": "Strawberry Milk shake",
                 "price": 60
                },
                {
                 "id": 11,
-                "name": "Butter Scotch Milk shakes",
+                "name": "Butter Scotch Milk shake",
                 "price": 60
                },
                {
                 "id": 12,
-                "name": "Pista Milk shakes",
+                "name": "Pista Milk shake",
                 "price": 60
                },
                {
                 "id": 13,
-                "name": "Mango Milk shakes",
+                "name": "Mango Milk shake",
                 "price": 60
                },
                {
                 "id": 14,
-                "name": "Chocolate Milk shakes",
+                "name": "Chocolate Milk shake",
                 "price": 60
                }
         ]

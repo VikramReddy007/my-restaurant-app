@@ -274,7 +274,7 @@
             },
             {
                 "id": 12,
-                "name": "Veg Manchuria Wet",
+                "name": "Veg Manchuria wet",
                 "price": 190,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },
@@ -286,7 +286,7 @@
             },
             {
                 "id": 14,
-                "name": "Veg American Chop Suey",
+                "name": "Veg American Chop suey",
                 "price": 220,
                 "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/g5cbia60d0shou5cjzat"
             },

@@ -16,7 +16,7 @@
             },
             {
                 "id": 3,
-                "name": "Veg Singapoor Noodles",
+                "name": "Veg Singapore Noodles",
                 "price": 279
             },
             {
@@ -41,7 +41,7 @@
             },
             {
                 "id": 8,
-                "name": "Khaju Fried Rice",
+                "name": "Kaju Fried Rice",
                 "price": 260
             },
             {
@@ -78,12 +78,12 @@
             },
             {
                 "id": 4,
-                "name": "Khaju Biryani",
+                "name": "Kaju Biryani",
                 "price": 260
             },
             {
                 "id": 5,
-                "name": "Mashroom Biryani",
+                "name": "Mushroom Biryani",
                 "price": 260
             },
             {

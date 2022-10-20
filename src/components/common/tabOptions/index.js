@@ -31,6 +31,11 @@ const tabs = [
 
 ];
 
+let scrollIfNotOnTop= () => {
+  if(!(window.scrollY===0&&window.scrollX===0))
+    window.scrollTo({top: 0, behavior: "smooth"})
+}
+
 const TabOptions = ({ activeTab, setActiveTab }) => {
   return (
       <div className="options-wrapper max-width">
@@ -39,8 +44,7 @@ const TabOptions = ({ activeTab, setActiveTab }) => {
             className={`tab-item absolute-center cur-po ${
               activeTab === tab.name && "active-tab"
             }`}
-            onClick={() => {
-              window.scrollTo({top: 60, behavior: "smooth"})
+            onClick={() => { scrollIfNotOnTop() 
               setActiveTab(tab.name)}
             }
           >
