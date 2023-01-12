@@ -12,13 +12,15 @@ const HomePage = () => {
   const [activeTab, setActiveTab] = useState("Starters"); 
 
   return (
-    <div>
-      <Header />
-      <TabOptions activeTab={activeTab} setActiveTab={setActiveTab}/>
-      {getCorrectScreen(activeTab)}
-      <Beverages />  
-      <Footer />
-    </div>
+    <>
+      <div>
+        <Header />
+        <TabOptions activeTab={activeTab} setActiveTab={setActiveTab}/>
+        {getCorrectScreen(activeTab)}
+        <Beverages />  
+        <Footer />
+      </div>
+    </>
   )
 }
 
