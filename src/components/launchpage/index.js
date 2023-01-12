@@ -16,8 +16,6 @@ const LaunchPage = () => {
           <div></div>
           <div></div>
           <div></div>
-          <div></div>
-          <div></div>
         </div>
         <button className='menu-link button-36'
           type="button"
