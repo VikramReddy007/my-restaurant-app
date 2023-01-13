@@ -38,9 +38,9 @@ let scrollIfNotOnTop= () => {
 
 const TabOptions = ({ activeTab, setActiveTab }) => {
   return (
-      <div className="options-wrapper max-width">
+      <div className="options-wrapper max-width" >
         {tabs.map((tab) => (
-          <div
+          <div key={tab.id}
             className={`tab-item absolute-center cur-po ${
               activeTab === tab.name && "active-tab"
             }`}

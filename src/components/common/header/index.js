@@ -8,11 +8,21 @@ const Header = () => {
   return (
     <>
       <div className='header max-width'>
-          <img src={mainLogo} alt='My Restaurant' className='header-logo' />
-          <img src={titleLogo} alt='Mana Chutneys' className='title-logo max-width' />
-      </div>      
+        <img onClick={() => {
+          navigateToHomePage()
+        }}
+          src={mainLogo} alt='My Restaurant' className='header-logo' />
+        <img
+          onClick={() => { navigateToHomePage() }}
+          src={titleLogo} alt='Mana Chutneys' className='title-logo max-width' />
+      </div>
     </>
   )
+}
+
+
+const navigateToHomePage = () => {
+  window.location.href = '/'
 }
 
 export default Header;
