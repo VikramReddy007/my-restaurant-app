@@ -2,12 +2,11 @@ import React from 'react'
 import '../launchpage/launchStyles.css'
 import '../../styles/commonClasses.css'
 import Header from '../../components/common/header';
-import { Link } from '@mui/material';
 
 const LaunchPage = () => {
   return (
     <>
-      <Header />
+      <Header className='header-on-launch' />
       <div className="launch-page max-width">
         <div class="snow">
           <div></div>
@@ -17,14 +16,13 @@ const LaunchPage = () => {
           <div></div>
           <div></div>
           <div></div>
-          {/* <div></div> */}
         </div>
-        <div className='intro-text max-width'>
-          Mana CHUTNEYS Multi-cuisine Restaurant
+        <h3 className='intro-text max-width'>
+          Mana CHUTNEYS Multi-cuisine Restaurant<br />
           NH-44 Road, Baswapur, Kamareddy - 503101<br />
-          Location: <Link href='https://goo.gl/maps/Tb1sa6Jy8rygWLmL9'>Click here</Link><br />
-          Call: <a href='tel:8340007272'><b>8340007272</b></a> for online orders
-        </div>
+          Location: <b><a id='nav-links' target='_blank' rel='noreferrer' href='https://goo.gl/maps/Tb1sa6Jy8rygWLmL9'>Click here</a></b><br />
+          Call: <b><a id='nav-links' href='tel:8340007272'>8340007272</a></b> for online orders
+        </h3>
         <div className="navigate-buttons">
           <button className='menu-link button-36'
             type="button"
@@ -37,7 +35,7 @@ const LaunchPage = () => {
             type="button"
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = 'https://g.page/r/CUg3PhEDzsh6EBM/review';
+              window.open ('https://g.page/r/CUg3PhEDzsh6EBM/review', '_blank');
             }}
           >REVIEW</button>
         </div>
