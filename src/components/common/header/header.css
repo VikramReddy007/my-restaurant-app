@@ -4,6 +4,8 @@
     flex-direction: row;
     align-items: center;
     background-color: #FFCB06;
+    position: relative; 
+    top: 0;
 }
 
 .header-logo{

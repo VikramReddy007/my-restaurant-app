@@ -3,15 +3,11 @@
     src: url("../common/tabOptions/SerifaBT-BoldCondensed.otf");
 }
 
-.header-on-launch{
-    position: sticky;
-}
-
 .launch-page {
     height: 100vh;
     background:
         linear-gradient(rgba(0, 0, 0, 0.15),
-            rgba(0, 0, 0, 0.15)), url(https://ik.imagekit.io/vb0g5zv8u/DE10A032-4DF0-4696-96A4-30913E61FE5F_cHGioJfcO.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1673613791884);
+            rgba(0, 0, 0, 0.15)), url(https://ik.imagekit.io/vb0g5zv8u/foodBackground_Tmmg171ww.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1674449304345);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100vh;
