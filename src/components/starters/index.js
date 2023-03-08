@@ -45,10 +45,10 @@ const Starters = () => {
 
 const getDishes = (type) => {
   switch (type) {
-    case "V": default:
+    case "NV":
       return (
         <div>
-          {VegMenu.map((menuItem) => (
+          {NonVegMenu.map((menuItem) => (
             <>
               <div className='dish-category'>
                 <h2>{menuItem.name}</h2>
@@ -71,10 +71,10 @@ const getDishes = (type) => {
           ))}
         </div>
       )
-    case "NV":
+      case "V": default:
       return (
         <div>
-          {NonVegMenu.map((menuItem) => (
+          {VegMenu.map((menuItem) => (
             <>
               <div className='dish-category'>
                 <h2>{menuItem.name}</h2>
