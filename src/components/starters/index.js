@@ -5,6 +5,8 @@ import Switch from 'react-switch'
 import VegMenu from '../menu/StartersVegMenu.json'
 import NonVegMenu from '../menu/StartersNonVegMenu.json'
 
+let responseFromAPI;
+
 const Starters = () => {
 
   const [selected, setChecked] = useState("V");

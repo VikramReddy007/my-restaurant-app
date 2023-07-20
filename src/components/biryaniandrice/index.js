@@ -5,7 +5,8 @@ import '../../styles/commonClasses.css'
 import Switch from 'react-switch'
 import "../menu/menuItems.css"
 
-const Deserts = () => {
+const BiryaniAndRice = () => {
+
   const [checked, setChecked] = useState("V");
   const handleChange = () => {
     setChecked((menu) => menu === "V" ? "NV" : "V");
@@ -98,4 +99,4 @@ const getDishes = (type) => {
   }
 }
 
-export default Deserts;
+export default BiryaniAndRice;

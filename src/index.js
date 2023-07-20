@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import ErrorPage from './error-page';
 import LaunchPage from './components/launchpage';
 import HomePage from './pages/home/index.js';
+import GetMenu from './components/biryaniandrice/getmenu';
 
 import {
   createBrowserRouter,
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
   {
     path: "/menu",
     element: <HomePage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/mongoresult",
+    element: <GetMenu />,
     errorElement: <ErrorPage />,
   },
 ]);

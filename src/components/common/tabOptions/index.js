@@ -6,7 +6,7 @@ import DesertsImage from './images/Deserts.png'
 
 const tabs = [
   {
-    id: 1, 
+    id: 1,
     name: "Starters",
     active_img: StartersImage,
     backdrop: "#FCEEC0",
