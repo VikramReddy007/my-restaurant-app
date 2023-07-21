@@ -1,4 +1,8 @@
 .created-by{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgb(245, 139, 101);
+    border-radius: 20px;
+    font-size: large;
 }

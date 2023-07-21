@@ -13,8 +13,8 @@ const Footer = () => {
   return (
     <footer>
       <div className='max-width created-by'>
-        <text>🤝THANK YOU SO MUCH, PLEASE VISIT AGAIN!🤝</text>
-        <text>Created by Team ManaChutneys with ❤️!</text>
+        <p>🤝THANK YOU SO MUCH, PLEASE VISIT AGAIN!🤝</p>
+        <p>Created by Team ManaChutneys with ❤️!</p>
       </div>
     </footer>
   )
