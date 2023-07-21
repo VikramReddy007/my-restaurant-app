@@ -8,7 +8,7 @@ const LaunchPage = () => {
     <>
       <Header className='header-on-launch' />
       <div className="launch-page max-width">
-        <div class="snow">
+        <div className="snow">
           <div></div>
           <div></div>
           <div></div>

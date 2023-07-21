@@ -1,19 +1,43 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "../menu/menuItems.css"
 import '../../styles/commonClasses.css'
 import Switch from 'react-switch'
-import VegMenu from '../menu/StartersVegMenu.json'
-import NonVegMenu from '../menu/StartersNonVegMenu.json'
+import env from "react-dotenv";
+// require("dotenv").config()
+// .config({ path: "D:\ReactProjects\my-restaurant-app\config.env" });
+
+let responseFromAPI;
+const DB_URL = env.DB_SERVER_URL;
 
 const Starters = () => {
-
-  const [selected, setChecked] = useState("V");
+  const [records, setRecords] = useState([]);
+  const [checked, setChecked] = useState("V");
+  const [collectionName, setCollectionName] = useState("StartersVegMenu");
   const handleChange = () => {
     setChecked((menu) => menu === "V" ? "NV" : "V");
+    setCollectionName((name) => name === "StartersNonVegMenu" ? "StartersVegMenu" : "StartersNonVegMenu");
   };
 
+  useEffect(() => {
+    async function getRecords() {
+      const response = await fetch(`${DB_URL}/menu/`+collectionName);
+
+      if (!response.ok) {
+        const message = `An error occurred: ${response.statusText}`;
+        window.alert(message);
+        return;
+      }
+      const resBody = await response.json();
+      responseFromAPI = resBody;
+      setRecords(resBody);
+      console.log(responseFromAPI);
+    }
+
+    getRecords();
+  }, [checked, collectionName]);
+
   return (
-    <div className="menu-items max-width-menu">
+    <div className="menu-items max-width-menu" key="StartersMenu">
       <label className="switch-dish-type">
         <p>VEG</p>
         <Switch
@@ -27,7 +51,7 @@ const Starters = () => {
           activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
           height={20}
           width={48}
-          checked={selected === "NV"}
+          checked={checked === "NV"}
           onChange={handleChange}
           className="react-switch"
           id="material-switch"
@@ -36,28 +60,26 @@ const Starters = () => {
         <div className="starter-items">
         </div>
       </label>
-      <div className="dish-menu">
-        {getDishes(selected)}
+      <div className="dish-menu" key="dish-menu-key">
+        {getDishes(records)}
       </div>
     </div>
   )
 }
 
-const getDishes = (type) => {
-  switch (type) {
-    case "NV":
+const getDishes = (records) => {
       return (
         <div>
-          {NonVegMenu.map((menuItem) => (
+          {records.map((menuItem) => (
             <>
-              <div className='dish-category'>
+              <div className='dish-category' key={menuItem.id}>
                 <h2>{menuItem.name}</h2>
                 <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
               </div>
               {menuItem.listItems.map((item) => (
                 <>
                   <hr />
-                  <div className='dish-sec-whole'>
+                  <div className='dish-sec-whole' key={item.id}>
                     <div className="dish-sec-name-price">
                       <div className="dish-item item-name">{item.name}</div>
                       <div className="dish-item item-price">Rs. {item.price}/-</div>
@@ -69,35 +91,7 @@ const getDishes = (type) => {
               <div><hr className='dish-sec-border' /></div>
             </>
           ))}
-        </div>
-      )
-      case "V": default:
-      return (
-        <div>
-          {VegMenu.map((menuItem) => (
-            <>
-              <div className='dish-category'>
-                <h2>{menuItem.name}</h2>
-                <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
-              </div>
-              {menuItem.listItems.map((item) => (
-                <>
-                  <hr />
-                  <div className='dish-sec-whole'>
-                    <div className="dish-sec-name-price">
-                      <div className="dish-item item-name">{item.name}</div>
-                      <div className="dish-item item-price">Rs. {item.price}/-</div>
-                    </div>
-                    {/* <img className="dish-image" src={item.image} alt={item.name}/> */}
-                  </div>
-                </>
-              ))}
-              <div><hr className='dish-sec-border' /></div>
-            </>
-          ))}
-        </div>
-      )
-  }
+        </div>)
 }
 
 export default Starters;

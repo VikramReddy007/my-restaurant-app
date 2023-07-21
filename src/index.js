@@ -23,6 +23,11 @@ const router = createBrowserRouter([
     element: <HomePage />,
     errorElement: <ErrorPage />,
   },
+  // {
+  //   path: "/mongoresult",
+  //   element: <GetMenu />,
+  //   errorElement: <ErrorPage />,
+  // },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
