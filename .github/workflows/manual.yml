@@ -19,7 +19,7 @@ jobs:
       - name: Send GET request and verify response
         run: |
           response=$(curl -o /dev/null -s -w "%200" https://mc-backend-ykec.onrender.com/menu/StartersVegMenu)
-          echo response
+          echo $response
           if [ "$response" = "200" ]; then
             echo "GET request successful - HTTP 200 OK"
             exit 0
