@@ -3,8 +3,6 @@ import "../menu/menuItems.css"
 import '../../styles/commonClasses.css'
 import Switch from 'react-switch'
 import env from "react-dotenv";
-// require("dotenv").config()
-// .config({ path: "D:\ReactProjects\my-restaurant-app\config.env" });
 
 let responseFromAPI;
 const DB_URL = env.DB_SERVER_URL;
