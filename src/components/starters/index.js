@@ -3,6 +3,7 @@ import "../menu/menuItems.css"
 import '../../styles/commonClasses.css'
 import Switch from 'react-switch'
 import env from "react-dotenv";
+import '../../../src/index.css'
 
 let responseFromAPI;
 const DB_URL = env.DB_SERVER_URL;

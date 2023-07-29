@@ -7,8 +7,6 @@ import LaunchPage from './components/launchpage';
 import HomePage from './pages/home/index.js';
 import UpdateMenuHomePage from './UpdateMenu';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import {
   createBrowserRouter,
   RouterProvider,
