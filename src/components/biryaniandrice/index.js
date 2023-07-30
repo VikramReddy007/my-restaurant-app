@@ -18,7 +18,7 @@ const BiryaniAndRice = () => {
 
   useEffect(() => {
     async function getRecords() {
-      const response = await fetch(`${env.DB_SERVER_URL}/menu/`+collectionName);
+      const response = await fetch(`${env.DB_SERVER_URL}/menu/` + collectionName);
 
       if (!response.ok) {
         const message = `An error occurred: ${response.statusText}`;
@@ -31,7 +31,7 @@ const BiryaniAndRice = () => {
     }
 
     getRecords();
-    
+
     console.log(responseFromAPI);
   }, [checked, collectionName]);
 
@@ -67,31 +67,38 @@ const BiryaniAndRice = () => {
 }
 
 const getDishes = (records) => {
-      return (
-        <div>
-          {records.map((menuItem) => (
+  if (!records.length) {
+    return (
+      <div align={"center"}>
+        <div className='loader'></div>
+      </div>
+    )
+  }
+  return (
+    <div>
+      {records.map((menuItem) => (
+        <>
+          <div className='dish-category'>
+            <h2>{menuItem.name}</h2>
+            <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
+          </div>
+          {menuItem.listItems.map((item) => (
             <>
-              <div className='dish-category'>
-                <h2>{menuItem.name}</h2>
-                <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
+              <hr />
+              <div className='dish-sec-whole'>
+                <div className="dish-sec-name-price">
+                  <div className="dish-item item-name">{item.name}</div>
+                  <div className="dish-item item-price">Rs. {item.price}/-</div>
+                </div>
+                {/* <img className="dish-image" src={item.image} alt={item.name}/> */}
               </div>
-              {menuItem.listItems.map((item) => (
-                <>
-                  <hr />
-                  <div className='dish-sec-whole'>
-                    <div className="dish-sec-name-price">
-                      <div className="dish-item item-name">{item.name}</div>
-                      <div className="dish-item item-price">Rs. {item.price}/-</div>
-                    </div>
-                    {/* <img className="dish-image" src={item.image} alt={item.name}/> */}
-                  </div>
-                </>
-              ))}
-              <div><hr className='dish-sec-border' /></div>
             </>
           ))}
-        </div>
-      )
+          <div><hr className='dish-sec-border' /></div>
+        </>
+      ))}
+    </div>
+  )
 }
 
 export default BiryaniAndRice;

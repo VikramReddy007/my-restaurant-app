@@ -1,10 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
-import Header from '../components/common/header'
-// import {
-//     Container, Row, Col, Form, Input, Button, Navbar, Nav,
-//     NavbarBrand, NavLink, NavItem, UncontrolledDropdown,
-//     DropdownToggle, DropdownMenu, DropdownItem
-// } from 'reactstrap';
+import Header from '../components/common/header';
 import env from 'react-dotenv';
 import Switch from 'react-switch';
 import Radio from '@mui/material/Radio';
@@ -49,12 +44,14 @@ const UpdateMenuHomePage = () => {
             }
         }
         getRecords();
+        // eslint-disable-next-line
     }, [dbUpdate])
 
     useEffect(() => {
         if (StartersVegResponse != null) {
             setCurrentMenuForRender();
         }
+        // eslint-disable-next-line
     }, [checked, selected, StartersVegResponse, StartersNonVegResponse, MainCourseVegResponse, MainCourseNonVegResponse, BiryaniAndRiceVegResponse,
         BiryaniAndRiceNonVegResponse, BeveragesResponse])
 
@@ -90,7 +87,7 @@ const UpdateMenuHomePage = () => {
                 setCurrentMenu(BiryaniAndRiceNonVegResponse);
                 break;
 
-            case 'BeveragesVegMenu': case 'BeveragesNonVegMenu' :
+            case 'BeveragesVegMenu': case 'BeveragesNonVegMenu':
                 setCurrentMenu(BeveragesResponse);
                 break;
             default: setCurrentMenu(StartersVegResponse);
@@ -136,17 +133,17 @@ const UpdateMenuHomePage = () => {
             newPrice: itemNewPrice
         };
 
-        if(editedPrice.newPrice===''){
+        if (editedPrice.newPrice === '') {
             window.alert('Please enter a value!');
             setItemToUpdate("");
             disableButton(editedPrice.name);
             return;
         }
-        document.getElementById(itemToUpdate+'button').value = 'Updating...';
+        document.getElementById(itemToUpdate + 'button').value = 'Updating...';
         let collectionName;
-        collectionName = selected==='Beverages'? "Beverages": selected+checked+'Menu';
+        collectionName = selected === 'Beverages' ? "Beverages" : selected + checked + 'Menu';
         // This will send a put request to update the data in the database.
-        const response = await fetch(`http://localhost:5000/updateItemPrice/`+collectionName, {
+        const response = await fetch(`${env.DB_SERVER_URL}/updateItemPrice/` + collectionName, {
             method: "PUT",
             body: JSON.stringify(editedPrice),
             headers: {
@@ -160,22 +157,22 @@ const UpdateMenuHomePage = () => {
             return;
         }
         setDbUpdate(Date.now());
-        document.getElementById(itemToUpdate+'newPrice').value = '';
+        document.getElementById(itemToUpdate + 'newPrice').value = '';
         setItemToUpdate("");
         setItemNewPrice("");
     }
 
-const setNewPriceValueAndItemName = (e, name) => {
-    if(e.target.value!=null){
-        setItemToUpdate(name);
-        setItemNewPrice(e.target.value);
-        // return;
+    const setNewPriceValueAndItemName = (e, name) => {
+        if (e.target.value != null) {
+            setItemToUpdate(name);
+            setItemNewPrice(e.target.value);
+            // return;
+        }
     }
-}
 
-const disableButton = (itemName) => {
-    return !(itemToUpdate.includes(itemName));
-}
+    const disableButton = (itemName) => {
+        return !(itemToUpdate.includes(itemName));
+    }
 
     const renderMenuList = (searchedItems) => {
         if (!searchedItems.length) {
@@ -202,12 +199,12 @@ const disableButton = (itemName) => {
                                         <div className="row">
                                             <div className="dish-item item-name column" id={item.name}>{item.name}</div>
                                             <div className="dish-item item-price column">Rs. {item.price}/-</div>
-                                            <input ref={ref} id={item.name+'newPrice'} type='text' placeholder='New Price' className='dish-item new-price column' 
-                                            onChange={event => setNewPriceValueAndItemName(event, item.name)}
+                                            <input ref={ref} id={item.name + 'newPrice'} type='text' placeholder='New Price' className='dish-item new-price column'
+                                                onChange={event => setNewPriceValueAndItemName(event, item.name)}
                                             // create variable to hold button index --> use item.id as unique key, then try to enable that button only
                                             // ref={(input) => input = input}
                                             ></input>
-                                            <button id={item.name+"button"} disabled={disableButton(item.name)} className='column' type='submit' onClick={onSubmit}>Update</button>
+                                            <button id={item.name + "button"} disabled={disableButton(item.name)} className='column' type='submit' onClick={onSubmit}>Update</button>
                                         </div>
                                     </div>
                                 </>

@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ErrorPage from './error-page';
 import LaunchPage from './components/launchpage';
 import HomePage from './pages/home/index.js';
 import UpdateMenuHomePage from './UpdateMenu';
+import ErrorDemo from './errorDemo';
 
 import {
   createBrowserRouter,
@@ -16,18 +16,18 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <LaunchPage />,
-    errorElement: <ErrorPage />,
+    errorElement: <ErrorDemo />,
     // loader: rootLoader,
   },
   {
     path: "/menu",
     element: <HomePage />,
-    errorElement: <ErrorPage />,
+    errorElement: <ErrorDemo />,
   },
   {
     path: "/updateMenu",
     element: <UpdateMenuHomePage />,
-    errorElement: <ErrorPage />,
+    errorElement: <ErrorDemo />,
   },
 ]);
 

@@ -17,8 +17,6 @@ const HomePage = () => {
         <Header />
         <TabOptions activeTab={activeTab} setActiveTab={setActiveTab}/>
         {getCorrectScreen(activeTab)}
-        {/* <MenuDisplay tabName={activeTab} setActiveTab={setActiveTab}/> */}
-        <Beverages />  
         <Footer />
       </div>
     </>
@@ -34,6 +32,8 @@ const getCorrectScreen = (tab) => {
       return <MainCourse />
     case 'Biryani/Rice':
       return <BiryaniAndRice />
+    case 'Beverages':
+      return <Beverages />
     default: return <div>Starters!</div>
   }
 }
