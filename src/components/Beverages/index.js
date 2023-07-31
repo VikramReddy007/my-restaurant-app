@@ -33,7 +33,7 @@ const Beverages = () => {
   return (
     <div key='total-render'><br/>
       {records.map((menuItem) => (
-        <div key={menuItem.name}>
+        <div className='max-width-menu' key={menuItem.name}>
           <div className='dish-category' key={menuItem.id}>
             <h2 key={'heading1'+menuItem.name}>{menuItem.name}</h2>
             <img key={'image'+menuItem} className="dish-image" src={menuItem.image} alt={menuItem.name} />
