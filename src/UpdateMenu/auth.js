@@ -33,7 +33,6 @@ const Authenticate = () => {
             return;
         }
         let resBody = await response.json();
-        console.log(resBody.map((item) => item.menuUpdatePassword));
         sessionStorage.clear();
         sessionStorage.setItem('user-token', resBody.map((item) => item.menuUpdatePassword));
         navigate('/updateMenu');

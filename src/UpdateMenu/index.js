@@ -36,7 +36,6 @@ const UpdateMenuHomePage = () => {
                     return;
                 }
                 const resBody = await response.json();
-                console.log(resBody);
                 setRespectiveState(colName, resBody);
             }
             setShowLoading(false);
@@ -191,30 +190,29 @@ const UpdateMenuHomePage = () => {
             <>
                 <div className='max-width max-width-menu'>
                     {searchedItems.map((menuItem) => (
-                        <>
+                        <div key={'menuItem-div'+menuItem.name}>
                             <div className='dish-category' key={menuItem._id} id={menuItem._id}>
-                                <h2>{menuItem.name}</h2>
-                                <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
+                                <h2 key={'heading1' + menuItem.name}>{menuItem.name}</h2>
+                                <img key={'image' + menuItem} className="dish-image" src={menuItem.image} alt={menuItem.name} />
                             </div>
                             {menuItem.listItems.map((item) => (
-                                <>
+                                <div key={'listItems-div'+item.name}>
                                     <hr />
-                                    <div className='dish-sec-whole' key={item.id}>
-                                        <div className="row">
-                                            <div className="dish-item item-name column" id={item.name}>{item.name}</div>
-                                            <div className="dish-item item-price column">Rs. {item.price}/-</div>
+                                    <div className='dish-sec-whole' key={'dish-sec-whole' + item.name}>
+                                        <div className="row" key={'dish-sec-name-price' + item.name}>
+                                            <div className="dish-item item-name column" id={item.name} key={'dish-item-name' + item.name}>{item.name}</div>
+                                            <div className="dish-item item-price column" key={'dish-item-price' + item.name}>Rs. {item.price}/-</div>
                                             <input ref={ref} id={item.name + 'newPrice'} type='text' placeholder='New Price' className='dish-item new-price column'
                                                 onChange={event => setNewPriceValueAndItemName(event, item.name)}
-                                            // create variable to hold button index --> use item.id as unique key, then try to enable that button only
-                                            // ref={(input) => input = input}
+                                                key={'input-new-price' + item.name}
                                             ></input>
-                                            <button id={item.name + "button"} disabled={disableButton(item.name)} className='column' type='submit' onClick={onSubmit}>Update</button>
+                                            <button key={'update-button'+item.name} id={item.name + "button"} disabled={disableButton(item.name)} className='column' type='submit' onClick={onSubmit}>Update</button>
                                         </div>
                                     </div>
-                                </>
+                                </div>
                             ))}
-                            <div><hr className='dish-sec-border' /></div>
-                        </>
+                            <div key={'line-break' + menuItem.id}><hr className='dish-sec-border' key={menuItem.id + 'border'}/></div>
+                        </div>
                     ))}
                 </div>
             </>
@@ -229,7 +227,6 @@ const UpdateMenuHomePage = () => {
                     row
                     aria-labelledby="demo-controlled-radio-buttons-group"
                     name="controlled-radio-buttons-group"
-                    // value='Menu-Type'
                     onChange={handleRadioChange}
                     defaultValue="Starters"
                 >

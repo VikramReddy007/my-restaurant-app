@@ -5,8 +5,6 @@ import Switch from 'react-switch'
 import env from "react-dotenv";
 import '../../../src/index.css'
 
-let responseFromAPI;
-
 const Starters = () => {
   const [records, setRecords] = useState([]);
   const [checked, setChecked] = useState("V");
@@ -26,9 +24,7 @@ const Starters = () => {
         return;
       }
       const resBody = await response.json();
-      responseFromAPI = resBody;
       setRecords(resBody);
-      console.log(responseFromAPI);
     }
 
     getRecords();
@@ -36,7 +32,7 @@ const Starters = () => {
 
   return (
     <div className="menu-items max-width-menu" key="StartersMenu">
-      <label className="switch-dish-type">
+      <label className="switch-dish-type" key='switch-label'>
         <p>VEG</p>
         <Switch
           offColor='#00cc44'
@@ -53,10 +49,9 @@ const Starters = () => {
           onChange={handleChange}
           className="react-switch"
           id="material-switch"
+          key='switch-element'
         />
         <p>NON-VEG</p>
-        <div className="starter-items">
-        </div>
       </label>
       <div className="dish-menu" key="dish-menu-key">
         {getDishes(records)}
@@ -69,32 +64,32 @@ const getDishes = (records) => {
   if (!records.length) {
     return (
       <div align={"center"}>
-        <div className='loader'></div>
+        <div key='load-circle' className='loader'></div>
       </div>
     )
   }
   return (
-    <div>
+    <div key='total-render'>
       {records.map((menuItem) => (
-        <>
+        <div key={menuItem.name}>
           <div className='dish-category' key={menuItem.id}>
-            <h2>{menuItem.name}</h2>
-            <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
+            <h2 key={'heading1' + menuItem.name}>{menuItem.name}</h2>
+            <img key={'image' + menuItem} className="dish-image" src={menuItem.image} alt={menuItem.name} />
           </div>
           {menuItem.listItems.map((item) => (
-            <>
-              <hr />
-              <div className='dish-sec-whole' key={item.id}>
-                <div className="dish-sec-name-price">
-                  <div className="dish-item item-name">{item.name}</div>
-                  <div className="dish-item item-price">Rs. {item.price}/-</div>
+            <div key={'listItems' + item.name}>
+              <hr key={'line-break' + item.name} />
+              <div className='dish-sec-whole' key={'dish-sec-whole' + item.name}>
+                <div className="dish-sec-name-price" key={'dish-sec-name-price' + item.name}>
+                  <div className="dish-item item-name" key={'dish-item-name' + item.name}>{item.name}</div>
+                  <div className="dish-item item-price" key={'dish-item-price' + item.name}>Rs. {item.price}/-</div>
                 </div>
                 {/* <img className="dish-image" src={item.image} alt={item.name}/> */}
               </div>
-            </>
+            </div>
           ))}
-          <div><hr className='dish-sec-border' /></div>
-        </>
+          <div key={'line-break' + menuItem.id}><hr className='dish-sec-border' key={menuItem.id + 'border'} /></div>
+        </div>
       ))}
     </div>)
 }
