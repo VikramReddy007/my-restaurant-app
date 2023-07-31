@@ -4,8 +4,6 @@ import Switch from 'react-switch'
 import "../menu/menuItems.css"
 import env from "react-dotenv";
 
-let responseFromAPI;
-
 const BiryaniAndRice = () => {
 
   const [records, setRecords] = useState([]);
@@ -26,13 +24,10 @@ const BiryaniAndRice = () => {
         return;
       }
       const resBody = await response.json();
-      responseFromAPI = resBody;
       setRecords(resBody);
     }
 
     getRecords();
-
-    console.log(responseFromAPI);
   }, [checked, collectionName]);
 
   return (
@@ -75,30 +70,29 @@ const getDishes = (records) => {
     )
   }
   return (
-    <div>
+    <div key='total-render'>
       {records.map((menuItem) => (
-        <>
-          <div className='dish-category'>
-            <h2>{menuItem.name}</h2>
-            <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
+        <div key={menuItem.name}>
+          <div className='dish-category' key={menuItem.id}>
+            <h2 key={'heading1' + menuItem.name}>{menuItem.name}</h2>
+            <img key={'image' + menuItem} className="dish-image" src={menuItem.image} alt={menuItem.name} />
           </div>
           {menuItem.listItems.map((item) => (
-            <>
-              <hr />
-              <div className='dish-sec-whole'>
-                <div className="dish-sec-name-price">
-                  <div className="dish-item item-name">{item.name}</div>
-                  <div className="dish-item item-price">Rs. {item.price}/-</div>
+            <div key={'listItems' + item.name}>
+              <hr key={'line-break' + item.name} />
+              <div className='dish-sec-whole' key={'dish-sec-whole' + item.name}>
+                <div className="dish-sec-name-price" key={'dish-sec-name-price' + item.name}>
+                  <div className="dish-item item-name" key={'dish-item-name' + item.name}>{item.name}</div>
+                  <div className="dish-item item-price" key={'dish-item-price' + item.name}>Rs. {item.price}/-</div>
                 </div>
                 {/* <img className="dish-image" src={item.image} alt={item.name}/> */}
               </div>
-            </>
+            </div>
           ))}
-          <div><hr className='dish-sec-border' /></div>
-        </>
+          <div key={'line-break' + menuItem.id}><hr className='dish-sec-border' key={menuItem.id + 'border'} /></div>
+        </div>
       ))}
-    </div>
-  )
+    </div>)
 }
 
 export default BiryaniAndRice;
