@@ -1,3 +1,3 @@
 window.env = {
-  "DB_SERVER_URL": "http://localhost:5000"
+  "DB_SERVER_URL": "https://mc-backend-ykec.onrender.com"
 };

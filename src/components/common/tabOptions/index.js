@@ -27,6 +27,13 @@ const tabs = [
     active_img: DesertsImage,
     backdrop: "#FCEEC0",
     inactive_img: "./images/Deserts.png",
+  },
+  {
+    id: 4, 
+    name: "Beverages",
+    active_img: DesertsImage,
+    backdrop: "#FCEEC0",
+    inactive_img: "./images/Deserts.png",
   }
 
 ];
