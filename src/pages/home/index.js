@@ -24,7 +24,6 @@ const HomePage = () => {
 }
 
 const getCorrectScreen = (tab) => {
-  // return <MenuDisplay tabName={tab} />
   switch(tab){
     case 'Starters':
       return <Starters />

@@ -20,7 +20,7 @@ const LaunchPage = () => {
         <h4 className='intro-text max-width'>
           Mana CHUTNEYS Multi-cuisine Restaurant<br />
           NH-44 Road, Baswapur, Kamareddy - 503101<br />
-          Location: <b><a id='nav-links' target='_blank' rel='noreferrer' href='https://goo.gl/maps/Tb1sa6Jy8rygWLmL9'>Click here</a></b><br />
+          Location: <b><a id='nav-links' target='_blank' rel="noopener noreferrer" href='https://goo.gl/maps/Tb1sa6Jy8rygWLmL9'>Click here</a></b><br />
           Call: <b><a id='nav-links' href='tel:8340007272'>8340007272</a></b> for online orders
         </h4>
         <div className="navigate-buttons">

@@ -13,11 +13,11 @@ const Footer = () => {
   return (
     <footer>
       <div className='max-width created-by'>
-        <p>🤝THANK YOU SO MUCH, PLEASE VISIT AGAIN!🤝</p>
-        <p>Created by Team ManaChutneys with ❤️!</p>
+        <p><span role='img' aria-label='handshake'>🤝</span>THANK YOU SO MUCH, PLEASE VISIT AGAIN!<span role='img' aria-label='handshake'>🤝</span></p>
+        <p>Created by Team ManaChutneys with <span role='img' aria-label='red-heart'>❤️</span>!</p>
       </div>
     </footer>
   )
 }
 
-export default Footer
+export default Footer;

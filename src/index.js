@@ -11,6 +11,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Authenticate from './UpdateMenu/auth';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
   {
     path: "/updateMenu",
     element: <UpdateMenuHomePage />,
+    errorElement: <ErrorDemo />,
+  },
+  {
+    path: "/authenticate",
+    element: <Authenticate />,
     errorElement: <ErrorDemo />,
   },
 ]);

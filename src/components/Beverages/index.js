@@ -22,6 +22,7 @@ const Beverages = () => {
     }
 
     getRecords();
+    // eslint-disable-next-line
   }, []);
 
   if (!records.length) {

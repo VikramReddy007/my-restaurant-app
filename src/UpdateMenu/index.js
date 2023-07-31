@@ -5,6 +5,7 @@ import Switch from 'react-switch';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
+import Authenticate from './auth';
 
 let DB_URL = env.DB_SERVER_URL;
 
@@ -23,10 +24,7 @@ const UpdateMenuHomePage = () => {
     const [itemToUpdate, setItemToUpdate] = useState("");
     const [dbUpdate, setDbUpdate] = useState("");
     const ref = useRef(null);
-
-    const handleChange = () => {
-        setChecked((menu) => menu === "Veg" ? "NonVeg" : "Veg");
-    };
+    const [passwordVerified, setPasswordVerified] = useState(false);
 
     useEffect(() => {
         async function getRecords() {
@@ -55,6 +53,9 @@ const UpdateMenuHomePage = () => {
     }, [checked, selected, StartersVegResponse, StartersNonVegResponse, MainCourseVegResponse, MainCourseNonVegResponse, BiryaniAndRiceVegResponse,
         BiryaniAndRiceNonVegResponse, BeveragesResponse])
 
+    const handleChange = () => {
+        setChecked((menu) => menu === "Veg" ? "NonVeg" : "Veg");
+    };
 
     let menuTypeList = ["StartersVegMenu", "StartersNonVegMenu",
         "MainCourseVegMenu", "MainCourseNonVegMenu",
@@ -175,6 +176,7 @@ const UpdateMenuHomePage = () => {
     }
 
     const renderMenuList = (searchedItems) => {
+
         if (!searchedItems.length) {
             return (
                 <div align={"center"}>
