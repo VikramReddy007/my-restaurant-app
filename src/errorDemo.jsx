@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/common/header';
+import './errorPage.css'
 
 const errorDemo = () => {
     return (
@@ -11,7 +12,7 @@ const errorDemo = () => {
                         <h1>404</h1>
                         <h2>Page not found</h2>
                     </div>
-                    <a href="/">Homepage</a>
+                    <a href="/">Go to Homepage</a>
                 </div>
             </div>
         </>

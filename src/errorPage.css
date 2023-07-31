@@ -75,15 +75,16 @@
     font-family: montserrat,sans-serif;
     display: inline-block;
     text-transform: uppercase;
-    color: #ff005a;
+    color: #1c030c;
     text-decoration: none;
-    border: 2px solid;
+    border: 2px solid white;
     background: 0 0;
     padding: 10px 40px;
     font-size: 14px;
     font-weight: 700;
     -webkit-transition: .2s all;
-    transition: .2s all
+    transition: .2s all;
+    background-color: rgb(8, 246, 28);
 }
 
 .notfound a:hover {

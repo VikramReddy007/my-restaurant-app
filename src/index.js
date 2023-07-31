@@ -6,41 +6,26 @@ import LaunchPage from './components/launchpage';
 import HomePage from './pages/home/index.js';
 import UpdateMenuHomePage from './UpdateMenu';
 import ErrorDemo from './errorDemo';
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
 import Authenticate from './UpdateMenu/auth';
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <LaunchPage />,
-    errorElement: <ErrorDemo />,
-    // loader: rootLoader,
-  },
-  {
-    path: "/menu",
-    element: <HomePage />,
-    errorElement: <ErrorDemo />,
-  },
-  {
-    path: "/updateMenu",
-    element: <UpdateMenuHomePage />,
-    errorElement: <ErrorDemo />,
-  },
-  {
-    path: "/authenticate",
-    element: <Authenticate />,
-    errorElement: <ErrorDemo />,
-  },
-]);
+import ProtectedRoute from './UpdateMenu/ProtectedRoute';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <RouterProvider router={router} />
+  <BrowserRouter basename={'/'}>
+    <Routes>
+      <Route path='/auth' element={<Authenticate />} />
+      <Route path='/' element={<LaunchPage />}></Route>
+      <Route path='/menu' element={<HomePage />}></Route>
+      <Route path='/updateMenu' element={
+        <ProtectedRoute>
+          <UpdateMenuHomePage />
+        </ProtectedRoute>
+      } />
+      <Route path="*" element={<ErrorDemo />} />
+    </Routes>
+  </BrowserRouter>
   // </React.StrictMode>
 );
 

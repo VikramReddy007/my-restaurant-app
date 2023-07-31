@@ -5,7 +5,6 @@ import Switch from 'react-switch';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import Authenticate from './auth';
 
 let DB_URL = env.DB_SERVER_URL;
 
@@ -24,7 +23,7 @@ const UpdateMenuHomePage = () => {
     const [itemToUpdate, setItemToUpdate] = useState("");
     const [dbUpdate, setDbUpdate] = useState("");
     const ref = useRef(null);
-    const [passwordVerified, setPasswordVerified] = useState(false);
+    const [showLoading, setShowLoading] = useState(true);
 
     useEffect(() => {
         async function getRecords() {
@@ -40,6 +39,7 @@ const UpdateMenuHomePage = () => {
                 console.log(resBody);
                 setRespectiveState(colName, resBody);
             }
+            setShowLoading(false);
         }
         getRecords();
         // eslint-disable-next-line
@@ -161,6 +161,7 @@ const UpdateMenuHomePage = () => {
         document.getElementById(itemToUpdate + 'newPrice').value = '';
         setItemToUpdate("");
         setItemNewPrice("");
+        setShowLoading(true);
     }
 
     const setNewPriceValueAndItemName = (e, name) => {
@@ -177,7 +178,8 @@ const UpdateMenuHomePage = () => {
 
     const renderMenuList = (searchedItems) => {
 
-        if (!searchedItems.length) {
+        // if (!searchedItems.length) {
+        if(showLoading){
             return (
                 <div align={"center"}>
                     <div className='loader'></div>
@@ -190,7 +192,7 @@ const UpdateMenuHomePage = () => {
                 <div className='max-width max-width-menu'>
                     {searchedItems.map((menuItem) => (
                         <>
-                            <div className='dish-category' id={menuItem._id}>
+                            <div className='dish-category' key={menuItem._id} id={menuItem._id}>
                                 <h2>{menuItem.name}</h2>
                                 <img className="dish-image" src={menuItem.image} alt={menuItem.name} />
                             </div>
