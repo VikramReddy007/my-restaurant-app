@@ -128,6 +128,17 @@ const UpdateMenuHomePage = () => {
 
     async function onSubmit(e) {
         e.preventDefault();
+        
+        const currentPrice = await fetch(`${env.DB_SERVER_URL}/getItemPrice/` + collectionName,
+        {
+            method: "GET",
+            body: JSON.stringify({name : itemToUpdate}),
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        }
+        );
+
         const editedPrice = {
             name: itemToUpdate,
             newPrice: itemNewPrice
@@ -157,6 +168,7 @@ const UpdateMenuHomePage = () => {
             return;
         }
         setDbUpdate(Date.now());
+        
         document.getElementById(itemToUpdate + 'newPrice').value = '';
         setItemToUpdate("");
         setItemNewPrice("");
@@ -176,8 +188,6 @@ const UpdateMenuHomePage = () => {
     }
 
     const renderMenuList = (searchedItems) => {
-
-        // if (!searchedItems.length) {
         if(showLoading){
             return (
                 <div align={"center"}>
