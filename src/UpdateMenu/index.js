@@ -128,17 +128,18 @@ const UpdateMenuHomePage = () => {
 
     async function onSubmit(e) {
         e.preventDefault();
-        
-        const currentPrice = await fetch(`${env.DB_SERVER_URL}/getItemPrice/` + collectionName,
+        let collectionName;
+        collectionName = selected === 'Beverages' ? "Beverages" : selected + checked + 'Menu';
+        let currentPrice = await fetch(`${env.DB_SERVER_URL}/getItemPrice/` + collectionName,
         {
-            method: "GET",
+            method: "POST",
             body: JSON.stringify({name : itemToUpdate}),
             headers: {
                 'Content-Type': 'application/json'
             },
         }
         );
-
+        let priceFromAPI = await currentPrice.json();
         const editedPrice = {
             name: itemToUpdate,
             newPrice: itemNewPrice
@@ -151,8 +152,6 @@ const UpdateMenuHomePage = () => {
             return;
         }
         document.getElementById(itemToUpdate + 'button').value = 'Updating...';
-        let collectionName;
-        collectionName = selected === 'Beverages' ? "Beverages" : selected + checked + 'Menu';
         // This will send a put request to update the data in the database.
         const response = await fetch(`${env.DB_SERVER_URL}/updateItemPrice/` + collectionName, {
             method: "PUT",
@@ -168,7 +167,22 @@ const UpdateMenuHomePage = () => {
             return;
         }
         setDbUpdate(Date.now());
-        
+        let updatePriceLog = {
+            "name": itemToUpdate,
+            "oldPrice": priceFromAPI,
+            "newPrice": itemNewPrice,
+            "collection" : collectionName
+        }
+        const updatedPriceLogResponse = await fetch(`${env.DB_SERVER_URL}/updatePriceLog`, {
+            method: "POST",
+            body: JSON.stringify(updatePriceLog),
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        });
+        if(response.ok && !updatedPriceLogResponse.ok){
+            window.alert("Price updated, but could not update log, please check if the price is updated!")
+        }
         document.getElementById(itemToUpdate + 'newPrice').value = '';
         setItemToUpdate("");
         setItemNewPrice("");
