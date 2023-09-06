@@ -1,6 +1,8 @@
 name: Check GET Request
 
 on: 
+  push:
+  pull_request:
   schedule:
     - cron: "*/4 10-22 * * *"
 
