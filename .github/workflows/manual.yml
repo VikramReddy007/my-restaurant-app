@@ -1,6 +1,8 @@
 name: Check GET Request
 
-on: workflow_dispatch
+on: 
+  schedule:
+    - cron: "*/4 10-22 * * *"
 
 jobs:
   check_get_request:
