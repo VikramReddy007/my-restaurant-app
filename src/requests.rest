@@ -1,0 +1,35 @@
+POST http://localhost:5000/getPassword HTTP/1.1
+content-type: application/json
+
+{
+    "password": "***"
+}
+
+###
+
+GET http://localhost:5000/menu/StartersNonVegMenu HTTP/1.1
+Content-Type: application/json
+
+###
+
+GET http://localhost:5000/getItemPrice/StartersVegMenu HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Veg Spring Roll"
+}
+
+###
+
+POST http://localhost:5000/updatePriceLog HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Veg Spring Roll",
+    "oldPrice": "120",
+    "newPrice": "130",
+    "collection" : "StartersVegMenu"
+}
+
+###
+
